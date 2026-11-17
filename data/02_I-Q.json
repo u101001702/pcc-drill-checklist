@@ -1,0 +1,2308 @@
+{
+ "sections": [
+  {
+   "id": "I",
+   "group": "main",
+   "title": "脊椎脊髓損傷",
+   "related_procs": [
+    "T2",
+    "T4",
+    "T6",
+    "T7",
+    "T12"
+   ],
+   "problems": [
+    {
+     "id": "I-0",
+     "layer": "主要問題處置",
+     "name": "脊椎脊髓損傷",
+     "monitor": [
+      {
+       "t": "記錄神經檢查與皮節，確認薦椎保留",
+       "src": "ATLS Ch.7",
+       "cap": [
+        "EXAM"
+       ]
+      },
+      {
+       "t": "監測血壓",
+       "src": "ATLS Ch.7 p.120–121",
+       "cap": [
+        "MON"
+       ],
+       "note": "以 MAP 為準；單純脊髓傷維持 MAP 85–90 約 7 天"
+      }
+     ],
+     "treat": [
+      {
+       "t": "鈍傷執行脊椎限移技術",
+       "src": "ATLS Ch.7, 22",
+       "cap": [
+        "SURG"
+       ]
+      },
+      {
+       "t": "穿刺性頸部傷通常不需要頸圈",
+       "src": "ATLS Ch.7, 22",
+       "cap": [
+        "SURG"
+       ]
+      },
+      {
+       "t": "不適用允許性低血壓",
+       "src": "ATLS Ch.7",
+       "cap": [
+        "RES"
+       ]
+      },
+      {
+       "t": "不要用類固醇",
+       "src": "ATLS Ch.7",
+       "cap": [
+        "SURG"
+       ]
+      },
+      {
+       "t": "置放 Foley",
+       "src": "慣例",
+       "cap": [
+        "NURS"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "I-E1",
+     "layer": "預期發生問題",
+     "name": "神經性休克（T6 以上）",
+     "monitor": [
+      {
+       "t": "監測低血壓、心搏過緩、皮膚溫暖乾燥",
+       "src": "ATLS Ch.7",
+       "cap": [
+        "MON"
+       ]
+      }
+     ],
+     "treat": [
+      {
+       "t": "輸液治療",
+       "src": "ATLS Ch.7",
+       "cap": [
+        "RES"
+       ]
+      },
+      {
+       "t": "給升壓劑",
+       "note": "norepinephrine；給液體後再用",
+       "src": "ATLS Ch.7",
+       "cap": [
+        "RES"
+       ]
+      },
+      {
+       "t": "評估給 atropine",
+       "note": "心搏過緩時",
+       "src": "慣例",
+       "cap": [
+        "RES"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "I-E2",
+     "layer": "預期發生問題",
+     "name": "呼吸衰竭（頸髓）",
+     "monitor": [
+      {
+       "t": "監測呼吸速率、SpO2、ETCO2 與咳嗽力量",
+       "src": "ATLS Ch.7",
+       "cap": [
+        "MON",
+        "VENT"
+       ],
+       "note": "留意水腫造成損傷平面上升"
+      }
+     ],
+     "treat": [
+      {
+       "t": "給氧",
+       "src": "Tintinalli Ch.258 p.1708",
+       "cap": [
+        "VENT"
+       ]
+      },
+      {
+       "t": "評估插管與呼吸器",
+       "note": "C5 以上建議",
+       "src": "Tintinalli Ch.258 p.1708",
+       "cap": [
+        "VENT",
+        "AIR"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "I-E3",
+     "layer": "預期發生問題",
+     "name": "尿滯留",
+     "monitor": [
+      {
+       "t": "監測尿量",
+       "src": "慣例",
+       "cap": [
+        "MON"
+       ]
+      }
+     ],
+     "treat": [
+      {
+       "t": "置放 Foley",
+       "src": "慣例",
+       "cap": [
+        "NURS"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "I-E4",
+     "layer": "預期發生問題",
+     "name": "體溫調節失常",
+     "monitor": [
+      {
+       "t": "連續監測體溫",
+       "src": "Tintinalli Ch.258 p.1710",
+       "cap": [
+        "MON"
+       ]
+      }
+     ],
+     "treat": [
+      {
+       "t": "評估保暖措施",
+       "src": "慣例",
+       "cap": [
+        "NURS"
+       ]
+      },
+      {
+       "t": "評估降溫措施",
+       "src": "慣例",
+       "cap": [
+        "NURS"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "I-S1",
+     "layer": "接續發生問題",
+     "name": "壓傷",
+     "monitor": [
+      {
+       "t": "翻身並檢查皮膚",
+       "src": "CPG91 p.43, 46",
+       "cap": [
+        "NURS",
+        "MON"
+       ],
+       "note": "每 2 小時；查骨突與夾板處皮膚"
+      }
+     ],
+     "treat": [
+      {
+       "t": "定期翻身",
+       "src": "CPG91 p.46",
+       "cap": [
+        "NURS"
+       ],
+       "note": "定期"
+      },
+      {
+       "t": "墊高骨突",
+       "src": "CPG91 p.46",
+       "cap": [
+        "NURS"
+       ]
+      },
+      {
+       "t": "用 Mepilex 類敷料",
+       "src": "CPG91 p.46",
+       "cap": [
+        "NURS"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "I-S2",
+     "layer": "接續發生問題",
+     "name": "深部靜脈栓塞",
+     "monitor": [
+      {
+       "t": "觀察下肢腫脹並做 POCUS",
+       "src": "慣例",
+       "cap": [
+        "EXAM",
+        "MON"
+       ]
+      }
+     ],
+     "treat": [
+      {
+       "t": "評估下肢按摩",
+       "note": "q1–2h；Minimum；懷疑 DVT 的肢體不按摩",
+       "src": "CPG91 p.45；慣例",
+       "cap": [
+        "NURS"
+       ]
+      },
+      {
+       "t": "彈性襪、彈性繃帶或機械加壓襪",
+       "note": "Better 彈性襪或彈性繃帶；Best 機械加壓襪",
+       "src": "CPG91 p.45",
+       "cap": [
+        "NURS"
+       ]
+      },
+      {
+       "t": "評估藥物預防",
+       "note": "PCC > 48 h 且已止血才給",
+       "src": "CPG91 p.41, 45",
+       "cap": [
+        "RES"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "I-S3",
+     "layer": "接續發生問題",
+     "name": "肺炎",
+     "monitor": [
+      {
+       "t": "監測體溫、痰液與 SpO2",
+       "src": "慣例",
+       "cap": [
+        "MON"
+       ]
+      }
+     ],
+     "treat": [
+      {
+       "t": "儘早給予抗生素",
+       "src": "CPG91 p.43–45",
+       "cap": [
+        "VENT",
+        "NURS"
+       ]
+      },
+      {
+       "t": "抽痰",
+       "src": "CPG91 p.43–45",
+       "cap": [
+        "VENT"
+       ]
+      },
+      {
+       "t": "定期翻身",
+       "src": "CPG91 p.43–45",
+       "cap": [
+        "NURS"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "I-S4",
+     "layer": "接續發生問題",
+     "name": "麻痺性腸阻塞、便秘",
+     "monitor": [
+      {
+       "t": "監測腹脹與排便",
+       "src": "慣例",
+       "cap": [
+        "MON"
+       ]
+      }
+     ],
+     "treat": [
+      {
+       "t": "置放 NG",
+       "src": "CPG91 p.41",
+       "cap": [
+        "NURS"
+       ]
+      },
+      {
+       "t": "給軟便劑",
+       "src": "CPG91 p.41",
+       "cap": [
+        "NURS"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "I-S5",
+     "layer": "接續發生問題",
+     "name": "自主神經反射異常（T6 以上，數週後）",
+     "monitor": [
+      {
+       "t": "留意突發高血壓與頭痛",
+       "src": "慣例",
+       "cap": [
+        "MON"
+       ]
+      }
+     ],
+     "treat": [
+      {
+       "t": "排除膀胱脹、便秘等誘因",
+       "src": "慣例",
+       "cap": [
+        "NURS"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "J",
+   "group": "main",
+   "title": "股骨閉鎖性骨折",
+   "related_procs": [
+    "T7",
+    "T12",
+    "T14"
+   ],
+   "problems": [
+    {
+     "id": "J-0",
+     "layer": "主要問題處置",
+     "name": "股骨閉鎖性骨折",
+     "monitor": [
+      {
+       "t": "評估失血量",
+       "src": "ATLS Ch.10",
+       "cap": [
+        "MON"
+       ],
+       "note": "單側股骨骨折可失血到 2 L，雙側加倍"
+      },
+      {
+       "t": "復位前後記錄神經血管狀態",
+       "src": "ATLS Ch.10",
+       "cap": [
+        "EXAM"
+       ],
+       "note": "復位對線前後"
+      }
+     ],
+     "treat": [
+      {
+       "t": "使用牽引夾板",
+       "note": "骨盆、股骨頸或同側脛骨骨折時禁用",
+       "src": "ATLS Ch.10",
+       "cap": [
+        "SURG"
+       ]
+      },
+      {
+       "t": "股神經阻斷止痛",
+       "note": "可選；有腔室症候群風險不做",
+       "src": "ATLS Ch.10",
+       "cap": [
+        "PAIN"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "J-E1",
+     "layer": "預期發生問題",
+     "name": "出血性休克",
+     "monitor": [
+      {
+       "t": "監測心跳、血壓、床邊 Hb 與大腿圍",
+       "src": "慣例",
+       "cap": [
+        "MON",
+        "RES"
+       ]
+      }
+     ],
+     "treat": [
+      {
+       "t": "使用牽引夾板",
+       "src": "慣例",
+       "cap": [
+        "SURG"
+       ]
+      },
+      {
+       "t": "輸液治療",
+       "src": "慣例",
+       "cap": [
+        "RES"
+       ]
+      },
+      {
+       "t": "輸血",
+       "src": "慣例",
+       "cap": [
+        "RES"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "J-E2",
+     "layer": "預期發生問題",
+     "name": "血管傷",
+     "monitor": [
+      {
+       "t": "監測遠端脈搏與膚色",
+       "src": "ATLS Ch.10；ATLS Ch.22",
+       "cap": [
+        "MON",
+        "EXAM"
+       ],
+       "note": "搏動性出血、擴大血腫、無脈搏或缺血屬硬徵象"
+      }
+     ],
+     "treat": [
+      {
+       "t": "評估緊急手術",
+       "note": "硬徵象時",
+       "src": "ATLS Ch.22",
+       "cap": [
+        "SURG"
+       ]
+      },
+      {
+       "t": "評估後送血管外科",
+       "note": "復位後仍無脈搏",
+       "src": "ATLS Ch.10",
+       "cap": [
+        "EVAC"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "J-E3",
+     "layer": "預期發生問題",
+     "name": "腔室症候群",
+     "monitor": [
+      {
+       "t": "觀察傷勢不成比例疼痛、被動牽拉痛、腫脹緊繃與感覺異常",
+       "src": "ATLS Ch.10",
+       "cap": [
+        "MON",
+        "EXAM"
+       ],
+       "note": "脈搏消失是晚期徵象"
+      }
+     ],
+     "treat": [
+      {
+       "t": "鬆開環狀敷料或夾板",
+       "src": "JTS58 p.6",
+       "cap": [
+        "NURS"
+       ]
+      },
+      {
+       "t": "評估筋膜切開",
+       "note": "有臨床徵象才做",
+       "src": "JTS58 p.6",
+       "cap": [
+        "SURG"
+       ]
+      },
+      {
+       "t": "這條肢體不做區域神經阻斷",
+       "src": "ATLS Ch.10",
+       "cap": [
+        "PAIN"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "J-E4",
+     "layer": "預期發生問題",
+     "name": "疼痛",
+     "monitor": [
+      {
+       "t": "評估疼痛分數",
+       "src": "慣例",
+       "cap": [
+        "MON",
+        "PAIN"
+       ]
+      }
+     ],
+     "treat": [
+      {
+       "t": "多模式止痛",
+       "src": "慣例",
+       "cap": [
+        "PAIN"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "J-S1",
+     "layer": "接續發生問題",
+     "name": "脂肪栓塞症候群",
+     "monitor": [
+      {
+       "t": "留意低血氧、意識改變與點狀出血",
+       "src": "慣例・未查證",
+       "cap": [
+        "MON"
+       ],
+       "note": "多在 24–72 h 出現"
+      }
+     ],
+     "treat": [
+      {
+       "t": "支持性治療",
+       "src": "慣例",
+       "cap": [
+        "VENT"
+       ],
+       "note": "給氧與呼吸器"
+      }
+     ]
+    },
+    {
+     "id": "J-S2",
+     "layer": "接續發生問題",
+     "name": "深部靜脈栓塞、肺栓塞",
+     "monitor": [
+      {
+       "t": "觀察下肢腫脹、突發呼吸困難、SpO2 下降與 POCUS",
+       "src": "慣例",
+       "cap": [
+        "MON",
+        "EXAM"
+       ]
+      }
+     ],
+     "treat": [
+      {
+       "t": "評估藥物預防",
+       "note": "PCC > 48 h 且止血後才給",
+       "src": "CPG91 p.41, 45",
+       "cap": [
+        "RES"
+       ]
+      },
+      {
+       "t": "評估下肢按摩",
+       "note": "q1–2h；機械預防；懷疑 DVT 的肢體不按摩",
+       "src": "CPG91 p.45；慣例",
+       "cap": [
+        "NURS"
+       ]
+      },
+      {
+       "t": "彈性襪、彈性繃帶或機械加壓襪",
+       "src": "CPG91 p.45",
+       "cap": [
+        "NURS"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "J-S3",
+     "layer": "接續發生問題",
+     "name": "壓傷",
+     "monitor": [
+      {
+       "t": "每 2 小時檢查牽引夾板接觸處",
+       "src": "CPG91 p.46",
+       "cap": [
+        "NURS",
+        "MON"
+       ]
+      }
+     ],
+     "treat": [
+      {
+       "t": "牽引夾板接觸處墊料",
+       "src": "慣例",
+       "cap": [
+        "NURS"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "K",
+   "group": "main",
+   "title": "截肢或止血帶長時間使用",
+   "related_procs": [
+    "T7",
+    "T11",
+    "T14"
+   ],
+   "problems": [
+    {
+     "id": "K-0",
+     "layer": "主要問題處置",
+     "name": "截肢或止血帶長時間使用",
+     "monitor": [
+      {
+       "t": "記錄止血帶綁上時間",
+       "src": "ATLS Ch.3",
+       "cap": [
+        "MON",
+        "NURS"
+       ]
+      }
+     ],
+     "treat": [
+      {
+       "t": "綁止血帶",
+       "note": "傷口上方 5–8 cm，直接綁皮膚；綁到摸不到遠端脈搏；不夠時近端再加一條",
+       "src": "ATLS Ch.3, 22",
+       "cap": [
+        "SURG"
+       ]
+      },
+      {
+       "t": "評估轉換止血帶",
+       "note": "2 小時內轉換可避免不必要截肢；> 6 小時不要拆；休克中不要轉換；外傷性截肢止血帶不要自行轉換",
+       "src": "ATLS Ch.24; CPG91 p.18",
+       "cap": [
+        "SURG"
+       ]
+      },
+      {
+       "t": "斷肢沖洗、濕紗布包、裝袋放冰水",
+       "note": "以生理食鹽水或 LR 沖洗；斷肢不可直接接觸冰",
+       "src": "ATLS Ch.10",
+       "cap": [
+        "NURS"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "K-E1",
+     "layer": "預期發生問題",
+     "name": "再出血",
+     "monitor": [
+      {
+       "t": "檢查殘肢敷料與止血帶有無鬆脫",
+       "src": "CPG91 p.11",
+       "cap": [
+        "MON",
+        "NURS"
+       ]
+      }
+     ],
+     "treat": [
+      {
+       "t": "重綁止血帶",
+       "src": "ATLS Ch.3",
+       "cap": [
+        "SURG"
+       ]
+      },
+      {
+       "t": "加壓填塞",
+       "src": "ATLS Ch.3",
+       "cap": [
+        "SURG"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "K-E2",
+     "layer": "預期發生問題",
+     "name": "止血帶後症候群（再灌流）",
+     "monitor": [
+      {
+       "t": "鬆開後監測血壓、ECG、床邊 K 與 pH",
+       "src": "ATLS Ch.24",
+       "cap": [
+        "MON",
+        "RES"
+       ]
+      }
+     ],
+     "treat": [
+      {
+       "t": "鬆開前先復甦",
+       "src": "ATLS Ch.24; 推論",
+       "cap": [
+        "RES"
+       ]
+      },
+      {
+       "t": "鬆開前備妥高血鉀處置",
+       "src": "ATLS Ch.24; 推論",
+       "cap": [
+        "RES"
+       ]
+      },
+      {
+       "t": "評估給鈣劑",
+       "note": "高血鉀時；10% Ca gluconate",
+       "src": "推論",
+       "cap": [
+        "RES"
+       ]
+      },
+      {
+       "t": "評估給 insulin＋glucose",
+       "note": "高血鉀時；把鉀推進細胞",
+       "src": "推論",
+       "cap": [
+        "RES"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "K-E3",
+     "layer": "預期發生問題",
+     "name": "疼痛、幻肢痛",
+     "monitor": [
+      {
+       "t": "評估疼痛分數",
+       "src": "慣例",
+       "cap": [
+        "MON",
+        "PAIN"
+       ]
+      }
+     ],
+     "treat": [
+      {
+       "t": "多模式止痛",
+       "src": "CPG91 p.33–35",
+       "cap": [
+        "PAIN"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "K-S1",
+     "layer": "接續發生問題",
+     "name": "橫紋肌溶解、急性腎損傷",
+     "monitor": [
+      {
+       "t": "監測尿量、尿色與尿液試紙潛血",
+       "src": "JTS58",
+       "cap": [
+        "MON"
+       ]
+      }
+     ],
+     "treat": [
+      {
+       "t": "輸液治療",
+       "note": "先 bolus 2 L，再以 1 L/h；目標尿量 100–200 mL/h",
+       "src": "推論",
+       "cap": [
+        "RES",
+        "MON"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "K-S2",
+     "layer": "接續發生問題",
+     "name": "傷口感染、氣性壞疽",
+     "monitor": [
+      {
+       "t": "觀察傷口、捻髮音與發燒",
+       "src": "慣例",
+       "cap": [
+        "MON",
+        "EXAM"
+       ]
+      }
+     ],
+     "treat": [
+      {
+       "t": "儘早給予抗生素",
+       "src": "ATLS Ch.10",
+       "cap": [
+        "SURG"
+       ]
+      },
+      {
+       "t": "評估清創",
+       "src": "ATLS Ch.10",
+       "cap": [
+        "SURG"
+       ]
+      },
+      {
+       "t": "評估後送",
+       "src": "ATLS Ch.10",
+       "cap": [
+        "EVAC"
+       ],
+       "note": "傷口感染與氣性壞疽時"
+      }
+     ]
+    },
+    {
+     "id": "K-S3",
+     "layer": "接續發生問題",
+     "name": "失溫",
+     "monitor": [
+      {
+       "t": "監測體溫",
+       "src": "慣例",
+       "cap": [
+        "MON"
+       ]
+      }
+     ],
+     "treat": [
+      {
+       "t": "隔絕地板、乾燥衣服包覆",
+       "src": "CPG91 p.22–23",
+       "cap": [
+        "NURS"
+       ]
+      },
+      {
+       "t": "加熱毯",
+       "note": "不直接貼皮膚",
+       "src": "CPG91 p.22–23",
+       "cap": [
+        "NURS"
+       ]
+      },
+      {
+       "t": "輸液治療",
+       "note": "加溫輸液",
+       "src": "CPG91 p.22–23",
+       "cap": [
+        "RES"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "L",
+   "group": "main",
+   "title": "顏面頸部外傷（呼吸道威脅）",
+   "related_procs": [
+    "T2",
+    "T3",
+    "T7"
+   ],
+   "problems": [
+    {
+     "id": "L-0",
+     "layer": "主要問題處置",
+     "name": "顏面頸部外傷（呼吸道威脅）",
+     "monitor": [
+      {
+       "t": "以 ETCO2 確認插管位置",
+       "src": "ATLS Ch.4",
+       "cap": [
+        "MON",
+        "AIR"
+       ],
+       "note": "ETCO2 須持續 ≥ 7 次呼吸"
+      }
+     ],
+     "treat": [
+      {
+       "t": "給氧",
+       "note": "呼吸道優先",
+       "src": "ATLS Ch.4",
+       "cap": [
+        "VENT"
+       ]
+      },
+      {
+       "t": "評估插管",
+       "note": "首次插管派最有經驗者，用影像喉頭鏡與 bougie",
+       "src": "ATLS Ch.4",
+       "cap": [
+        "AIR"
+       ]
+      },
+      {
+       "t": "評估環甲膜切開",
+       "note": "插不上也給不了氧時立刻做",
+       "src": "ATLS Ch.4; CPG91 p.15",
+       "cap": [
+        "AIR",
+        "SURG"
+       ]
+      },
+      {
+       "t": "不放 NPA",
+       "note": "疑顱底或中臉骨折時",
+       "src": "ATLS Ch.7",
+       "cap": [
+        "AIR"
+       ]
+      },
+      {
+       "t": "評估手術",
+       "note": "頸部穿刺傷有硬徵象時",
+       "src": "ATLS Ch.22",
+       "cap": [
+        "SURG"
+       ]
+      },
+      {
+       "t": "評估 Foley 打氣壓迫出血",
+       "note": "頸部穿刺傷出血時可用",
+       "src": "ATLS Ch.22",
+       "cap": [
+        "SURG"
+       ]
+      },
+      {
+       "t": "穿刺性頸部傷通常不需要頸圈",
+       "src": "ATLS Ch.22",
+       "cap": [
+        "SURG"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "L-E1",
+     "layer": "預期發生問題",
+     "name": "呼吸道阻塞（血液、水腫、血腫擴大）",
+     "monitor": [
+      {
+       "t": "監測沙啞、喘鳴、SpO2 與 ETCO2",
+       "src": "CPG91 p.13",
+       "cap": [
+        "MON",
+        "AIR"
+       ]
+      },
+      {
+       "t": "移動前、中、後都重新評估",
+       "src": "CPG91 p.13",
+       "cap": [
+        "MON"
+       ]
+      }
+     ],
+     "treat": [
+      {
+       "t": "呼吸道抽吸",
+       "src": "Tintinalli Ch.259 p.1718",
+       "cap": [
+        "AIR"
+       ]
+      },
+      {
+       "t": "評估讓病人採舒適坐姿並自行拿抽吸管",
+       "note": "清醒且排除頸椎傷後",
+       "src": "Tintinalli Ch.259 p.1718",
+       "cap": [
+        "NURS"
+       ]
+      },
+      {
+       "t": "評估插管",
+       "src": "慣例",
+       "cap": [
+        "AIR"
+       ]
+      },
+      {
+       "t": "評估環甲膜切開",
+       "src": "慣例",
+       "cap": [
+        "AIR",
+        "SURG"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "L-E2",
+     "layer": "預期發生問題",
+     "name": "出血",
+     "monitor": [
+      {
+       "t": "觀察傷口、血腫大小與 Hb",
+       "src": "慣例",
+       "cap": [
+        "MON",
+        "EXAM"
+       ]
+      }
+     ],
+     "treat": [
+      {
+       "t": "直接加壓或以 Foley 氣球填塞",
+       "src": "ATLS Ch.22",
+       "cap": [
+        "SURG"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "L-S1",
+     "layer": "接續發生問題",
+     "name": "吸入性肺炎",
+     "monitor": [
+      {
+       "t": "監測體溫、痰液與 SpO2",
+       "src": "慣例",
+       "cap": [
+        "MON"
+       ]
+      }
+     ],
+     "treat": [
+      {
+       "t": "儘早給予抗生素",
+       "src": "慣例",
+       "cap": [
+        "VENT",
+        "RES"
+       ]
+      },
+      {
+       "t": "抽痰",
+       "src": "慣例",
+       "cap": [
+        "VENT",
+        "RES"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "L-S3",
+     "layer": "接續發生問題",
+     "name": "顏面傷口感染",
+     "monitor": [
+      {
+       "t": "觀察傷口",
+       "src": "慣例",
+       "cap": [
+        "MON",
+        "EXAM"
+       ]
+      }
+     ],
+     "treat": [
+      {
+       "t": "儘早給予抗生素",
+       "src": "慣例",
+       "cap": [
+        "SURG"
+       ]
+      },
+      {
+       "t": "評估清創",
+       "src": "慣例",
+       "cap": [
+        "SURG"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "M",
+   "group": "main",
+   "title": "眼外傷",
+   "related_procs": [],
+   "problems": [
+    {
+     "id": "M-0",
+     "layer": "主要問題處置",
+     "name": "眼外傷",
+     "monitor": [
+      {
+       "t": "化學傷反覆測淚液 pH，約每 1 L 或每 30 分鐘一次",
+       "src": "ATLS Ch.23",
+       "cap": [
+        "MON",
+        "EXAM"
+       ]
+      },
+      {
+       "t": "觀察眼球突出、眼瞼緊繃、視力下降",
+       "src": "ATLS Ch.23",
+       "cap": [
+        "EXAM"
+       ],
+       "note": "為眼窩腔室症候群徵象"
+      }
+     ],
+     "treat": [
+      {
+       "t": "評估眼睛沖洗",
+       "note": "化學傷時立刻沖洗至淚液 pH 約 7，不等會診",
+       "src": "ATLS Ch.23",
+       "cap": [
+        "SURG"
+       ]
+      },
+      {
+       "t": "評估外眥切開加外眥韌帶切開",
+       "note": "眼窩腔室症候群時；約 90 分鐘內會永久失明；不等影像",
+       "src": "ATLS Ch.23",
+       "cap": [
+        "SURG"
+       ]
+      },
+      {
+       "t": "評估用硬眼罩",
+       "note": "開放性眼球傷時；不可用紗布或壓迫敷料",
+       "src": "ATLS Ch.23",
+       "cap": [
+        "NURS"
+       ]
+      },
+      {
+       "t": "開放性眼球傷時不量眼壓",
+       "src": "ATLS Ch.23",
+       "cap": [
+        "EXAM"
+       ]
+      },
+      {
+       "t": "儘早給予抗生素",
+       "note": "fluoroquinolone（如 moxifloxacin）",
+       "src": "ATLS Ch.23",
+       "cap": [
+        "RES"
+       ]
+      },
+      {
+       "t": "評估給破傷風",
+       "note": "開放性眼球傷時",
+       "src": "ATLS Ch.23",
+       "cap": [
+        "RES"
+       ]
+      },
+      {
+       "t": "床頭抬高 30°",
+       "src": "ATLS Ch.23",
+       "cap": [
+        "NURS"
+       ]
+      },
+      {
+       "t": "積極止痛、止吐、止咳",
+       "note": "避免用力",
+       "src": "ATLS Ch.23",
+       "cap": [
+        "PAIN"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "M-E1",
+     "layer": "預期發生問題",
+     "name": "視力喪失",
+     "monitor": [
+      {
+       "t": "檢查視力、瞳孔與眼壓",
+       "src": "ATLS Ch.23",
+       "cap": [
+        "EXAM",
+        "MON"
+       ],
+       "note": "眼壓只在非開放性傷測量"
+      }
+     ],
+     "treat": [
+      {
+       "t": "評估眼睛沖洗",
+       "note": "依病因：化學傷時",
+       "src": "ATLS Ch.23",
+       "cap": [
+        "SURG"
+       ]
+      },
+      {
+       "t": "評估外眥切開加外眥韌帶切開",
+       "note": "依病因：眼窩腔室症候群時",
+       "src": "ATLS Ch.23",
+       "cap": [
+        "SURG"
+       ]
+      },
+      {
+       "t": "評估用硬眼罩",
+       "note": "依病因：開放性眼球傷時",
+       "src": "ATLS Ch.23",
+       "cap": [
+        "NURS"
+       ]
+      },
+      {
+       "t": "評估後送眼科",
+       "note": "開放性眼球傷最好 < 12–24 h 內縫合",
+       "src": "ATLS Ch.23",
+       "cap": [
+        "EVAC"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "M-E2",
+     "layer": "預期發生問題",
+     "name": "前房出血",
+     "monitor": [
+      {
+       "t": "檢查前房積血",
+       "src": "ATLS Ch.23",
+       "cap": [
+        "EXAM",
+        "MON"
+       ]
+      }
+     ],
+     "treat": [
+      {
+       "t": "戴眼罩",
+       "src": "ATLS Ch.23",
+       "cap": [
+        "NURS"
+       ]
+      },
+      {
+       "t": "臥床",
+       "src": "ATLS Ch.23",
+       "cap": [
+        "NURS"
+       ]
+      },
+      {
+       "t": "轉診",
+       "src": "ATLS Ch.23",
+       "cap": [
+        "EVAC"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "M-E3",
+     "layer": "預期發生問題",
+     "name": "疼痛、噁心",
+     "monitor": [
+      {
+       "t": "評估疼痛分數",
+       "src": "慣例",
+       "cap": [
+        "MON",
+        "PAIN"
+       ]
+      }
+     ],
+     "treat": [
+      {
+       "t": "止痛、止吐",
+       "note": "以防用力",
+       "src": "ATLS Ch.23",
+       "cap": [
+        "PAIN"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "M-S1",
+     "layer": "接續發生問題",
+     "name": "眼內炎",
+     "monitor": [
+      {
+       "t": "留意疼痛加劇、視力惡化與前房蓄膿",
+       "src": "慣例",
+       "cap": [
+        "MON",
+        "EXAM"
+       ]
+      }
+     ],
+     "treat": [
+      {
+       "t": "儘早給予抗生素",
+       "note": "fluoroquinolone ± vancomycin",
+       "src": "ATLS Ch.23",
+       "cap": [
+        "RES"
+       ]
+      },
+      {
+       "t": "評估後送眼科",
+       "src": "ATLS Ch.23",
+       "cap": [
+        "EVAC"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "M-S2",
+     "layer": "接續發生問題",
+     "name": "角膜潰瘍（鎮靜插管病人眼睛閉不緊）",
+     "monitor": [
+      {
+       "t": "檢查角膜外觀",
+       "src": "CPG91 p.41, 55",
+       "cap": [
+        "MON",
+        "EXAM"
+       ]
+      }
+     ],
+     "treat": [
+      {
+       "t": "點眼藥水",
+       "src": "CPG91 p.41, 55",
+       "cap": [
+        "NURS"
+       ]
+      },
+      {
+       "t": "貼合眼瞼",
+       "src": "CPG91 p.41, 55",
+       "cap": [
+        "NURS"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "N",
+   "group": "main",
+   "title": "爆炸傷",
+   "related_procs": [
+    "T1",
+    "T2",
+    "T7",
+    "T11",
+    "T14"
+   ],
+   "problems": [
+    {
+     "id": "N-0",
+     "layer": "主要問題處置",
+     "name": "爆炸傷",
+     "monitor": [
+      {
+       "t": "逐一檢查原發壓力波、次發破片與三級撞擊傷",
+       "src": "ATLS Ch.24",
+       "cap": [
+        "EXAM"
+       ]
+      },
+      {
+       "t": "檢查四級：燒傷、擠壓、感染",
+       "src": "ATLS Ch.24",
+       "cap": [
+        "EXAM"
+       ]
+      }
+     ],
+     "treat": [
+      {
+       "t": "注意多處截肢、骨盆骨折與 TBI",
+       "note": "高能量爆炸的徒步人員",
+       "src": "ATLS Ch.24",
+       "cap": [
+        "EXAM"
+       ]
+      },
+      {
+       "t": "完整暴露並清點傷口",
+       "note": "多處破片傷時",
+       "src": "ATLS Ch.22",
+       "cap": [
+        "EXAM",
+        "NURS"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "N-E1",
+     "layer": "預期發生問題",
+     "name": "爆震肺",
+     "monitor": [
+      {
+       "t": "監測呼吸速率與未給氧時 SpO2",
+       "src": "Tintinalli Ch.7 p.31–33",
+       "cap": [
+        "MON",
+        "VENT"
+       ]
+      },
+      {
+       "t": "連續胸部 X 光或超音波、FAST 檢查",
+       "src": "Tintinalli Ch.7 p.31–33",
+       "cap": [
+        "EXAM",
+        "MON"
+       ],
+       "note": "X 光有則做；超音波與 FAST 可快速檢查"
+      }
+     ],
+     "treat": [
+      {
+       "t": "給氧",
+       "src": "Tintinalli Ch.7 p.31",
+       "cap": [
+        "VENT"
+       ]
+      },
+      {
+       "t": "維持灌流",
+       "note": "避免輸液過量",
+       "src": "Tintinalli Ch.7 p.31",
+       "cap": [
+        "RES"
+       ]
+      },
+      {
+       "t": "使用呼吸器",
+       "note": "Vt 6–7 mL/kg IBW、Pplat < 30；可接受容許性高碳酸血症（顱內壓問題除外）",
+       "src": "Tintinalli Ch.7 p.31",
+       "cap": [
+        "VENT"
+       ]
+      },
+      {
+       "t": "想到空氣栓塞；正壓通氣後留意氣胸",
+       "src": "Tintinalli Ch.7 p.31",
+       "cap": [
+        "MON",
+        "VENT"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "N-E2",
+     "layer": "預期發生問題",
+     "name": "耳膜破裂、聽力損失",
+     "monitor": [
+      {
+       "t": "做耳鏡與聽力檢查",
+       "src": "Tintinalli Ch.7 p.31, 33",
+       "cap": [
+        "EXAM"
+       ],
+       "note": "耳膜完整不能排除爆震肺"
+      }
+     ],
+     "treat": [
+      {
+       "t": "照胸部 X 光",
+       "note": "單純耳膜破裂時即可",
+       "src": "Tintinalli Ch.7 p.31, 33",
+       "cap": [
+        "EXAM"
+       ]
+      },
+      {
+       "t": "安排耳鼻喉與聽力追蹤",
+       "src": "Tintinalli Ch.7 p.31, 33",
+       "cap": [
+        "EVAC"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "N-E3",
+     "layer": "預期發生問題",
+     "name": "出血性休克（破片、截肢）",
+     "monitor": [
+      {
+       "t": "記錄止血帶綁上時間",
+       "src": "ATLS Ch.3",
+       "cap": [
+        "MON",
+        "NURS"
+       ]
+      },
+      {
+       "t": "檢查殘肢敷料與止血帶有無鬆脫",
+       "src": "CPG91 p.11",
+       "cap": [
+        "MON",
+        "NURS"
+       ]
+      },
+      {
+       "t": "監測心跳、血壓",
+       "src": "ATLS Ch.22",
+       "cap": [
+        "MON"
+       ],
+       "note": "ABC score ≥ 2 預測需大量輸血"
+      },
+      {
+       "t": "追蹤床邊 iCa",
+       "src": "CPG91 p.11, 18",
+       "cap": [
+        "MON"
+       ],
+       "note": "輸血時追蹤，並給鈣"
+      }
+     ],
+     "treat": [
+      {
+       "t": "綁止血帶",
+       "note": "傷口上方 5–8 cm，直接綁皮膚；綁到摸不到遠端脈搏；不夠時近端再加一條",
+       "src": "ATLS Ch.3, 22",
+       "cap": [
+        "SURG"
+       ]
+      },
+      {
+       "t": "評估轉換止血帶",
+       "note": "2 小時內轉換可避免不必要截肢；> 6 小時不要拆；休克中不要轉換；外傷性截肢止血帶不要自行轉換",
+       "src": "ATLS Ch.24; CPG91 p.18",
+       "cap": [
+        "SURG"
+       ]
+      },
+      {
+       "t": "輸血",
+       "note": "血液存量不足時考慮 walking blood bank",
+       "src": "CPG91 p.11, 18",
+       "cap": [
+        "RES"
+       ]
+      },
+      {
+       "t": "評估給 TXA",
+       "note": "有出血性休克或有大量出血風險時，受傷 3 h 內給予",
+       "src": "TCCC（Drew 2020）p.41；CPG91 p.18",
+       "cap": [
+        "RES"
+       ]
+      },
+      {
+       "t": "斷肢沖洗、濕紗布包、裝袋放冰水",
+       "note": "以生理食鹽水或 LR 沖洗；斷肢不可直接接觸冰",
+       "src": "ATLS Ch.10",
+       "cap": [
+        "NURS"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "N-E4",
+     "layer": "預期發生問題",
+     "name": "TBI",
+     "monitor": [
+      {
+       "t": "監測血壓",
+       "src": "ATLS Ch.7",
+       "cap": [
+        "MON",
+        "RES"
+       ],
+       "note": "預防缺氧與低血壓，兩者同時出現死亡率約加倍；SBP ≥ 100 mmHg（MAP > 80）；不可用允許性低血壓"
+      },
+      {
+       "t": "監測 SpO2 與 ETCO2",
+       "src": "ATLS Ch.7",
+       "cap": [
+        "MON"
+       ],
+       "note": "維持 SpO2 ≥ 94%、ETCO2 35–40 mmHg"
+      },
+      {
+       "t": "超音波評估 ONSD（視神經鞘直徑）",
+       "src": "CPG91 p.68",
+       "cap": [
+        "EXAM"
+       ]
+      }
+     ],
+     "treat": [
+      {
+       "t": "評估給 TXA",
+       "note": "中重度 TBI 受傷 3 h 內；單次 2 g IV（或 1 g＋1 g／8 h）",
+       "src": "ATLS Ch.7；CPG91 p.28",
+       "cap": [
+        "RES"
+       ]
+      },
+      {
+       "t": "床頭抬高 30°",
+       "note": "整個上身抬且頸椎中立",
+       "src": "CPG91 p.26；ATLS Ch.7",
+       "cap": [
+        "NURS"
+       ]
+      },
+      {
+       "t": "輸液治療",
+       "note": "使用 NS 或血品；避免低張液與含葡萄糖液",
+       "src": "ATLS Ch.7 p.121",
+       "cap": [
+        "RES"
+       ]
+      },
+      {
+       "t": "鎮靜盡量少、避免肌鬆",
+       "note": "以保留神經檢查",
+       "src": "CPG91 p.28",
+       "cap": [
+        "PAIN",
+        "EXAM"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "N-S1",
+     "layer": "接續發生問題",
+     "name": "傷口感染（破片帶入污染）",
+     "monitor": [
+      {
+       "t": "觀察傷口與發燒",
+       "src": "慣例",
+       "cap": [
+        "MON",
+        "EXAM"
+       ]
+      }
+     ],
+     "treat": [
+      {
+       "t": "儘早給予抗生素",
+       "src": "ATLS Ch.10",
+       "cap": [
+        "SURG"
+       ]
+      },
+      {
+       "t": "評估清創",
+       "src": "ATLS Ch.10",
+       "cap": [
+        "SURG"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "N-S2",
+     "layer": "接續發生問題",
+     "name": "腸穿孔（延遲出現）",
+     "monitor": [
+      {
+       "t": "連續腹部檢查 24–48 h",
+       "src": "Tintinalli Ch.7 p.31–33",
+       "cap": [
+        "MON",
+        "EXAM"
+       ],
+       "note": "留意迴腸末端、盲腸；腸壁血腫症狀可延遲 12–48 h"
+      }
+     ],
+     "treat": [
+      {
+       "t": "儘早給予抗生素",
+       "src": "Tintinalli Ch.7 p.31–33",
+       "cap": [
+        "RES"
+       ]
+      },
+      {
+       "t": "評估後送",
+       "src": "Tintinalli Ch.7 p.31–33",
+       "cap": [
+        "EVAC"
+       ],
+       "note": "腸穿孔時"
+      }
+     ]
+    },
+    {
+     "id": "N-S3",
+     "layer": "接續發生問題",
+     "name": "急性壓力反應",
+     "monitor": [
+      {
+       "t": "依內科急性壓力反應項目監測",
+       "src": "推論",
+       "cap": [
+        "MON"
+       ]
+      }
+     ],
+     "treat": []
+    }
+   ]
+  },
+  {
+   "id": "O",
+   "group": "main",
+   "title": "大面積軟組織撕裂或脫套傷",
+   "related_procs": [
+    "T7",
+    "T11",
+    "T14"
+   ],
+   "problems": [
+    {
+     "id": "O-0",
+     "layer": "主要問題處置",
+     "name": "大面積軟組織撕裂或脫套傷",
+     "monitor": [],
+     "treat": [
+      {
+       "t": "直接加壓或填塞止血",
+       "note": "不可盲目鉗夾",
+       "src": "ATLS Ch.3",
+       "cap": [
+        "SURG"
+       ]
+      },
+      {
+       "t": "初評時不要探查傷口",
+       "src": "ATLS Ch.10",
+       "cap": [
+        "SURG"
+       ]
+      },
+      {
+       "t": "傷口灌洗",
+       "note": "大量；飲用水可用，無菌水或生理食鹽水更好",
+       "src": "CPG91 p.44",
+       "cap": [
+        "SURG",
+        "NURS"
+       ]
+      },
+      {
+       "t": "評估延遲縫合",
+       "note": "高感染風險傷口；約 4 天後再縫",
+       "src": "Tintinalli Ch.39 p.267; Ch.41 p.272",
+       "cap": [
+        "SURG"
+       ]
+      },
+      {
+       "t": "濕紗布填塞並覆無菌敷料",
+       "note": "延後縫合的期間",
+       "src": "Tintinalli Ch.39 p.267; Ch.41 p.272",
+       "cap": [
+        "SURG",
+        "NURS"
+       ]
+      },
+      {
+       "t": "給破傷風預防",
+       "src": "ATLS Ch.10",
+       "cap": [
+        "RES"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "O-E1",
+     "layer": "預期發生問題",
+     "name": "出血",
+     "monitor": [
+      {
+       "t": "監測敷料與 Hb",
+       "src": "慣例",
+       "cap": [
+        "MON",
+        "RES"
+       ]
+      }
+     ],
+     "treat": [
+      {
+       "t": "直接加壓或填塞止血",
+       "src": "慣例",
+       "cap": [
+        "SURG"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "O-E2",
+     "layer": "預期發生問題",
+     "name": "皮瓣壞死",
+     "monitor": [
+      {
+       "t": "觀察皮瓣顏色與微血管回填",
+       "src": "慣例",
+       "cap": [
+        "MON",
+        "EXAM"
+       ]
+      }
+     ],
+     "treat": [
+      {
+       "t": "評估清創",
+       "src": "慣例",
+       "cap": [
+        "SURG"
+       ]
+      },
+      {
+       "t": "評估後送整形外科",
+       "src": "慣例",
+       "cap": [
+        "EVAC"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "O-E3",
+     "layer": "預期發生問題",
+     "name": "失溫（大面積暴露）",
+     "monitor": [
+      {
+       "t": "監測體溫",
+       "src": "慣例",
+       "cap": [
+        "MON"
+       ]
+      }
+     ],
+     "treat": [
+      {
+       "t": "保暖",
+       "src": "CPG91 p.22",
+       "cap": [
+        "NURS"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "O-E4",
+     "layer": "預期發生問題",
+     "name": "疼痛",
+     "monitor": [
+      {
+       "t": "評估疼痛分數",
+       "src": "慣例",
+       "cap": [
+        "MON",
+        "PAIN"
+       ]
+      }
+     ],
+     "treat": [
+      {
+       "t": "多模式止痛",
+       "note": "換藥前先止處置痛",
+       "src": "CPG91 p.30",
+       "cap": [
+        "PAIN"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "O-S1",
+     "layer": "接續發生問題",
+     "name": "傷口感染、壞死性筋膜炎",
+     "monitor": [
+      {
+       "t": "監測紅腫擴散、疼痛不成比例、發燒與 NEWS",
+       "src": "慣例",
+       "cap": [
+        "MON",
+        "EXAM"
+       ]
+      }
+     ],
+     "treat": [
+      {
+       "t": "儘早給予抗生素",
+       "note": "廣效抗生素",
+       "src": "CPG91 p.38–40",
+       "cap": [
+        "SURG",
+        "RES"
+       ]
+      },
+      {
+       "t": "評估清創",
+       "src": "CPG91 p.38–40",
+       "cap": [
+        "SURG",
+        "RES"
+       ]
+      },
+      {
+       "t": "評估後送",
+       "src": "CPG91 p.38–40",
+       "cap": [
+        "EVAC"
+       ],
+       "note": "傷口感染或壞死性筋膜炎時"
+      }
+     ]
+    },
+    {
+     "id": "O-S2",
+     "layer": "接續發生問題",
+     "name": "敗血症",
+     "monitor": [
+      {
+       "t": "監測 NEWS",
+       "src": "CPG91 p.40",
+       "cap": [
+        "MON"
+       ],
+       "note": "留意 NEWS > 2"
+      }
+     ],
+     "treat": [
+      {
+       "t": "依敗血症階梯處置",
+       "src": "CPG91 p.40",
+       "cap": [
+        "RES"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "P",
+   "group": "main",
+   "title": "電擊或雷擊傷",
+   "related_procs": [
+    "T2",
+    "T5",
+    "T7",
+    "T10"
+   ],
+   "problems": [
+    {
+     "id": "P-0",
+     "layer": "主要問題處置",
+     "name": "電擊或雷擊傷",
+     "monitor": [
+      {
+       "t": "持續 ECG 監測",
+       "src": "Tintinalli Ch.219 p.1398–1399",
+       "cap": [
+        "MON"
+       ],
+       "note": "高壓電傷與有症狀者"
+      },
+      {
+       "t": "做 12 導程 ECG",
+       "src": "Tintinalli Ch.219 p.1398–1399",
+       "cap": [
+        "EXAM"
+       ]
+      }
+     ],
+     "treat": [
+      {
+       "t": "先切斷電源再接觸病人",
+       "note": "電擊時",
+       "src": "Tintinalli Table 219-3, Ch.219 p.1399",
+       "cap": [
+        "NURS"
+       ]
+      },
+      {
+       "t": "懷疑深部傷",
+       "note": "小傷口可能藏大範圍深部肌肉壞死；手緊握加小傷口時要懷疑",
+       "src": "ATLS Ch.9",
+       "cap": [
+        "EXAM"
+       ]
+      },
+      {
+       "t": "輸液治療",
+       "note": "電擊液體公式：4 mL × kg × %TBSA ÷ 16；尿量目標 1–1.5 mL/kg/h，直到尿色變清",
+       "src": "ATLS Ch.9",
+       "cap": [
+        "RES",
+        "MON"
+       ]
+      },
+      {
+       "t": "雷擊採反向檢傷",
+       "note": "外觀看似死亡者優先急救",
+       "src": "Wilderness Medicine Ch.7",
+       "cap": [
+        "RES"
+       ]
+      },
+      {
+       "t": "持續通氣",
+       "note": "呼吸驅力可停 5–6 小時",
+       "src": "Wilderness Medicine Ch.7",
+       "cap": [
+        "VENT"
+       ]
+      },
+      {
+       "t": "檢查耳膜",
+       "note": "超過一半雷擊傷者耳膜破裂",
+       "src": "Wilderness Medicine Ch.7",
+       "cap": [
+        "EXAM"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "P-E1",
+     "layer": "預期發生問題",
+     "name": "心律不整、心跳停止",
+     "monitor": [
+      {
+       "t": "持續 ECG 監測",
+       "src": "Tintinalli Ch.219 p.1399",
+       "cap": [
+        "MON"
+       ]
+      }
+     ],
+     "treat": [
+      {
+       "t": "依 ACLS 處置",
+       "src": "Tintinalli Ch.219 p.1399, 1402",
+       "cap": [
+        "RES"
+       ]
+      },
+      {
+       "t": "延長 CPR",
+       "note": "雷擊心跳停止多為 asystole；延長 CPR 有時成功",
+       "src": "Tintinalli Ch.219 p.1399, 1402",
+       "cap": [
+        "RES"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "P-E2",
+     "layer": "預期發生問題",
+     "name": "呼吸停止（雷擊）",
+     "monitor": [
+      {
+       "t": "監測呼吸與 ETCO2",
+       "src": "慣例",
+       "cap": [
+        "MON",
+        "VENT"
+       ]
+      }
+     ],
+     "treat": [
+      {
+       "t": "長時間 BVM 或呼吸器通氣",
+       "src": "Wilderness Medicine Ch.7",
+       "cap": [
+        "VENT"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "P-E3",
+     "layer": "預期發生問題",
+     "name": "腔室症候群",
+     "monitor": [
+      {
+       "t": "觀察傷勢不成比例疼痛、被動牽拉痛、腫脹緊繃與感覺異常",
+       "src": "ATLS Ch.10",
+       "cap": [
+        "MON",
+        "EXAM"
+       ]
+      }
+     ],
+     "treat": [
+      {
+       "t": "評估筋膜切開",
+       "note": "高壓電傷通常需要",
+       "src": "ATLS Ch.9; CPG91 p.51",
+       "cap": [
+        "SURG"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "P-E4",
+     "layer": "預期發生問題",
+     "name": "燒傷",
+     "monitor": [
+      {
+       "t": "評估燒傷 TBSA 與尿量、體溫、呼吸道狀態",
+       "src": "ATLS Ch.9; CPG91 p.47–50",
+       "cap": [
+        "MON"
+       ]
+      }
+     ],
+     "treat": [
+      {
+       "t": "停止燃燒",
+       "src": "ATLS Ch.9",
+       "cap": [
+        "NURS"
+       ]
+      },
+      {
+       "t": "覆蓋保暖",
+       "src": "ATLS Ch.9",
+       "cap": [
+        "NURS"
+       ]
+      },
+      {
+       "t": "輸液治療",
+       "note": "依燒傷液體公式",
+       "src": "ATLS Ch.9; CPG91 p.48–49",
+       "cap": [
+        "RES"
+       ]
+      },
+      {
+       "t": "給破傷風預防",
+       "src": "ATLS Ch.9",
+       "cap": [
+        "RES"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "P-S1",
+     "layer": "接續發生問題",
+     "name": "橫紋肌溶解、急性腎損傷",
+     "monitor": [
+      {
+       "t": "監測尿量、尿色與尿液試紙潛血",
+       "src": "慣例",
+       "cap": [
+        "MON"
+       ]
+      }
+     ],
+     "treat": [
+      {
+       "t": "輸液治療",
+       "note": "色素尿目標 75–100 mL/h",
+       "src": "CPG91 p.51; ATLS Ch.9",
+       "cap": [
+        "RES"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "P-S2",
+     "layer": "接續發生問題",
+     "name": "高血鉀",
+     "monitor": [
+      {
+       "t": "監測 ECG 與床邊 K",
+       "src": "慣例",
+       "cap": [
+        "MON",
+        "EXAM"
+       ]
+      }
+     ],
+     "treat": [
+      {
+       "t": "給鈣劑",
+       "note": "10% Ca gluconate；保護心臟",
+       "src": "推論",
+       "cap": [
+        "RES"
+       ]
+      },
+      {
+       "t": "給 insulin＋glucose",
+       "note": "regular insulin 10 U＋glucose 25 g",
+       "src": "推論",
+       "cap": [
+        "RES"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "P-S3",
+     "layer": "接續發生問題",
+     "name": "神經學後遺症",
+     "monitor": [
+      {
+       "t": "電擊後數天至數月留意延遲性脊髓惡化",
+       "src": "Tintinalli Ch.219 p.1398, 1401–1402",
+       "cap": [
+        "MON",
+        "EXAM"
+       ],
+       "note": "雷擊暫時性麻痺多在 24 h 內恢復"
+      }
+     ],
+     "treat": [
+      {
+       "t": "支持性治療",
+       "src": "慣例",
+       "cap": [
+        "RES"
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

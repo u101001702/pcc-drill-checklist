@@ -1,0 +1,4283 @@
+{
+ "sections": [
+  {
+   "id": "T1",
+   "group": "proc",
+   "title": "胸管（胸管引流）",
+   "problems": [
+    {
+     "id": "T1-0",
+     "layer": "置放與日常維護",
+     "name": "胸管（胸管引流）",
+     "monitor": [
+      {
+       "t": "每小時記錄引流量、顏色與冒泡",
+       "src": "慣例",
+       "cap": [
+        "MON"
+       ]
+      },
+      {
+       "t": "每小時看水封起伏及管路接頭",
+       "src": "慣例",
+       "cap": [
+        "MON"
+       ]
+      },
+      {
+       "t": "每班及搬運後查刻度、縫線與敷料",
+       "src": "慣例",
+       "cap": [
+        "MON"
+       ]
+      },
+      {
+       "t": "每 24 小時換敷料（Best）",
+       "src": "CPG91 p.44",
+       "cap": [
+        "NURS"
+       ]
+      },
+      {
+       "t": "記錄生命徵象、SpO2、ETCO2 趨勢",
+       "src": "CPG91 p.7",
+       "cap": [
+        "MON"
+       ]
+      },
+      {
+       "t": "留意咳嗽、粉紅泡沫痰與 SpO2 降",
+       "src": "推論",
+       "cap": [
+        "MON"
+       ],
+       "note": "置管後數小時內提高警覺",
+       "h": "復張性肺水腫（大量引流時）"
+      },
+      {
+       "t": "POCUS 查患側新 B-lines",
+       "src": "推論",
+       "cap": [
+        "EXAM"
+       ],
+       "h": "復張性肺水腫（大量引流時）"
+      }
+     ],
+     "treat": [
+      {
+       "t": "注意胸管技術相關規範",
+       "note": "張力性氣胸時；第 5 肋間腋前線鈍性分離置管；血胸用 ≥28 Fr；戰傷氣胸用 ≥24 Fr；單純氣胸可用 14 Fr 或 pigtail；側孔留在胸壁內 2.5–5 cm",
+       "src": "CPG91 p.18；JTS74 p.18；Tintinalli Ch.261 p.1741；ATLS 11e Ch.5",
+       "cap": [
+        "SURG",
+        "EXAM"
+       ]
+      },
+      {
+       "t": "接密閉引流",
+       "note": "大量血胸用引流瓶；不夾管；水封即可",
+       "src": "JTS74 p.10, 18；Tintinalli Ch.261 p.1741",
+       "cap": [
+        "SURG"
+       ]
+      },
+      {
+       "t": "儘早給予抗生素",
+       "note": "外傷血胸放管時預防性 cefazolin 2 g IV（JTS74 建議；Tintinalli 認為仍有爭議）",
+       "src": "慣例",
+       "cap": [
+        "RES"
+       ]
+      },
+      {
+       "t": "避免高負壓抽吸",
+       "src": "推論",
+       "cap": [
+        "VENT"
+       ],
+       "h": "復張性肺水腫（大量引流時）"
+      },
+      {
+       "t": "給氧",
+       "note": "多數觀察並給氧即可",
+       "src": "Tintinalli Ch.68 p.460",
+       "cap": [
+        "VENT"
+       ],
+       "h": "復張性肺水腫（大量引流時）"
+      },
+      {
+       "t": "插管者可提高 PEEP",
+       "src": "推論",
+       "cap": [
+        "VENT"
+       ],
+       "h": "復張性肺水腫（大量引流時）"
+      },
+      {
+       "t": "外傷血胸勿為此夾管",
+       "src": "推論",
+       "cap": [
+        "SURG"
+       ],
+       "h": "復張性肺水腫（大量引流時）"
+      }
+     ]
+    },
+    {
+     "id": "T1-P1",
+     "layer": "可能發生問題",
+     "name": "管路滑脫／位置錯誤",
+     "monitor": [
+      {
+       "t": "查看管路刻度與縫線",
+       "src": "慣例",
+       "cap": [
+        "MON"
+       ],
+       "note": "每班及翻身搬運後"
+      },
+      {
+       "t": "監測 SpO2 與 ETCO2",
+       "src": "推論",
+       "cap": [
+        "MON"
+       ],
+       "note": "留意 SpO2 降、ETCO2 改變"
+      },
+      {
+       "t": "聽患側呼吸音並查皮下氣腫",
+       "src": "推論",
+       "cap": [
+        "EXAM"
+       ]
+      },
+      {
+       "t": "確認側孔在胸壁內；有 X 光就照",
+       "src": "Tintinalli Ch.261 p.1741",
+       "cap": [
+        "EXAM"
+       ],
+       "note": "有 X 光就照；無 X 光時以 POCUS 確認"
+      },
+      {
+       "t": "畫出皮下氣腫範圍，追蹤是否擴大",
+       "src": "慣例",
+       "cap": [
+        "MON"
+       ],
+       "note": "每班；以捻髮音邊界畫"
+      }
+     ],
+     "treat": [
+      {
+       "t": "縫線加膠布固定",
+       "src": "慣例",
+       "cap": [
+        "NURS"
+       ]
+      },
+      {
+       "t": "搬運時專人扶管",
+       "src": "慣例",
+       "cap": [
+        "NURS"
+       ]
+      },
+      {
+       "t": "躁動者止痛鎮靜",
+       "src": "CPG91 p.31",
+       "cap": [
+        "PAIN"
+       ]
+      },
+      {
+       "t": "滑出時先封閉敷料覆蓋傷口",
+       "src": "ATLS 11e Ch.5",
+       "cap": [
+        "SURG"
+       ]
+      },
+      {
+       "t": "滑出管不推回",
+       "src": "JTS74 p.25",
+       "cap": [
+        "SURG"
+       ]
+      },
+      {
+       "t": "針刺或手指減壓",
+       "src": "ATLS 11e Ch.5",
+       "cap": [
+        "SURG"
+       ],
+       "note": "惡化時"
+      },
+      {
+       "t": "評估另開切口重放胸管",
+       "src": "JTS74 p.25",
+       "cap": [
+        "SURG"
+       ]
+      },
+      {
+       "t": "側孔露出勿內推",
+       "src": "慣例",
+       "cap": [
+        "SURG"
+       ],
+       "h": "位置錯誤"
+      },
+      {
+       "t": "評估重放胸管",
+       "note": "側孔露出時",
+       "src": "慣例",
+       "cap": [
+        "SURG"
+       ],
+       "h": "位置錯誤"
+      },
+      {
+       "t": "查接頭、瓶、管位與氣道",
+       "note": "肺不復張時",
+       "src": "Tintinalli Ch.261 p.1735",
+       "cap": [
+        "EXAM"
+       ],
+       "h": "位置錯誤"
+      },
+      {
+       "t": "評估後送",
+       "note": "嚴重皮下氣腫需支氣管鏡時",
+       "src": "Tintinalli Ch.261 p.1738",
+       "cap": [
+        "EVAC"
+       ],
+       "h": "位置錯誤"
+      }
+     ]
+    },
+    {
+     "id": "T1-P2",
+     "layer": "可能發生問題",
+     "name": "傷口感染",
+     "monitor": [
+      {
+       "t": "每日看傷口紅腫熱痛與膿",
+       "src": "慣例",
+       "cap": [
+        "MON"
+       ]
+      },
+      {
+       "t": "監測體溫",
+       "src": "慣例",
+       "cap": [
+        "MON"
+       ],
+       "note": "每 4 小時"
+      },
+      {
+       "t": "監測 NEWS",
+       "src": "CPG91 p.39",
+       "cap": [
+        "MON"
+       ],
+       "note": "追蹤趨勢"
+      }
+     ],
+     "treat": [
+      {
+       "t": "換藥",
+       "src": "CPG91 p.44",
+       "cap": [
+        "NURS"
+       ],
+       "note": "每 24 小時或髒污時"
+      },
+      {
+       "t": "儘早給予抗生素",
+       "note": "局部感染：cefazolin 或 clindamycin",
+       "src": "推論",
+       "cap": [
+        "RES"
+       ]
+      },
+      {
+       "t": "必要時拆部分縫線引流",
+       "src": "推論",
+       "cap": [
+        "SURG"
+       ]
+      },
+      {
+       "t": "評估後送",
+       "note": "深部或全身感染時",
+       "src": "推論",
+       "cap": [
+        "EVAC"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "T1-P3",
+     "layer": "可能發生問題",
+     "name": "管路彎折",
+     "monitor": [
+      {
+       "t": "每小時看水封液面是否起伏",
+       "src": "慣例",
+       "cap": [
+        "MON"
+       ]
+      },
+      {
+       "t": "檢查管子是否受壓或打折",
+       "src": "慣例",
+       "cap": [
+        "MON"
+       ]
+      },
+      {
+       "t": "確認引流功能",
+       "src": "JTS70 p.14",
+       "cap": [
+        "MON"
+       ]
+      }
+     ],
+     "treat": [
+      {
+       "t": "沿胸壁平順固定，避免 U 形下垂",
+       "src": "慣例",
+       "cap": [
+        "NURS"
+       ]
+      },
+      {
+       "t": "避免病人躺壓管路",
+       "src": "慣例",
+       "cap": [
+        "NURS"
+       ]
+      },
+      {
+       "t": "起伏消失先檢查彎折",
+       "src": "推論",
+       "cap": [
+        "EXAM"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "T1-P4",
+     "layer": "可能發生問題",
+     "name": "疼痛",
+     "monitor": [
+      {
+       "t": "評估疼痛分數",
+       "src": "推論",
+       "cap": [
+        "MON"
+       ],
+       "note": "每小時；插管者用行為量表"
+      },
+      {
+       "t": "觀察呼吸是否變淺",
+       "src": "推論",
+       "cap": [
+        "MON"
+       ]
+      },
+      {
+       "t": "確認病人能否咳嗽",
+       "src": "推論",
+       "cap": [
+        "EXAM"
+       ]
+      }
+     ],
+     "treat": [
+      {
+       "t": "多模式止痛",
+       "src": "ATLS 11e Ch.5",
+       "cap": [
+        "PAIN"
+       ],
+       "note": "目標能深呼吸咳痰"
+      },
+      {
+       "t": "全身止痛上加局部或區域麻醉",
+       "note": "置管處可做肋間神經阻斷",
+       "src": "JTS74 p.10；慣例",
+       "cap": [
+        "PAIN"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "T1-P5",
+     "layer": "可能發生問題",
+     "name": "管路阻塞（血塊）",
+     "monitor": [
+      {
+       "t": "每小時監測引流量、呼吸與血壓",
+       "src": "慣例；推論",
+       "cap": [
+        "MON"
+       ],
+       "note": "引流驟減且變喘或血壓下降時警覺管路阻塞"
+      },
+      {
+       "t": "POCUS 看胸水是否增加",
+       "src": "推論",
+       "cap": [
+        "EXAM"
+       ]
+      }
+     ],
+     "treat": [
+      {
+       "t": "血胸初置用 ≥28 Fr 胸管",
+       "src": "JTS74 p.18",
+       "cap": [
+        "SURG"
+       ]
+      },
+      {
+       "t": "評估換管或加第二根",
+       "note": "仍有氣胸或血胸時",
+       "src": "Tintinalli Ch.261 p.1742",
+       "cap": [
+        "SURG"
+       ]
+      },
+      {
+       "t": "不沖洗、不用 Fogarty 通管",
+       "src": "Tintinalli Ch.261 p.1742",
+       "cap": [
+        "SURG"
+       ]
+      },
+      {
+       "t": "可輕擠管路",
+       "src": "慣例",
+       "cap": [
+        "NURS"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "T1-P7",
+     "layer": "可能發生問題",
+     "name": "持續漏氣",
+     "monitor": [
+      {
+       "t": "每小時記錄冒泡型態",
+       "src": "慣例；Tintinalli Ch.261 p.1735",
+       "cap": [
+        "MON"
+       ],
+       "note": "漏氣超過 24–48 小時提高警覺"
+      },
+      {
+       "t": "記錄呼吸器吸吐氣潮氣量差",
+       "src": "推論",
+       "cap": [
+        "MON"
+       ]
+      }
+     ],
+     "treat": [
+      {
+       "t": "排除接頭及引流瓶漏氣",
+       "note": "先做",
+       "src": "Tintinalli Ch.261 p.1735",
+       "cap": [
+        "EXAM"
+       ]
+      },
+      {
+       "t": "抽吸使通氣變差時改水封或 Heimlich 閥",
+       "src": "JTS74 p.10",
+       "cap": [
+        "SURG"
+       ]
+      },
+      {
+       "t": "評估加放第二根",
+       "note": "一管無法復張時",
+       "src": "JTS74 p.10",
+       "cap": [
+        "SURG"
+       ]
+      },
+      {
+       "t": "評估支氣管鏡或開胸",
+       "note": "持續大量漏氣時",
+       "src": "Tintinalli Ch.261 p.1735",
+       "cap": [
+        "EVAC"
+       ]
+      },
+      {
+       "t": "評估後送",
+       "note": "持續大量漏氣需支氣管鏡或開胸時",
+       "src": "Tintinalli Ch.261 p.1735",
+       "cap": [
+        "EVAC"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "T1-P8",
+     "layer": "可能發生問題",
+     "name": "引流量過多（需手術門檻）",
+     "monitor": [
+      {
+       "t": "記錄置管即時量及每小時量、顏色",
+       "src": "慣例",
+       "cap": [
+        "MON"
+       ]
+      },
+      {
+       "t": "POC Hb、lactate 每 4–6 小時",
+       "src": "推論",
+       "cap": [
+        "MON"
+       ]
+      },
+      {
+       "t": "留意持續輸血需求",
+       "src": "JTS74 p.8",
+       "cap": [
+        "MON"
+       ]
+      }
+     ],
+     "treat": [
+      {
+       "t": "輸血",
+       "note": "血液存量不足時考慮 walking blood bank",
+       "src": "JTS74 p.9",
+       "cap": [
+        "RES"
+       ]
+      },
+      {
+       "t": "考慮回輸胸血",
+       "src": "JTS74 p.9",
+       "cap": [
+        "RES"
+       ]
+      },
+      {
+       "t": "評估夾管",
+       "note": "引流後惡化時；由醫師決定",
+       "src": "推論",
+       "cap": [
+        "EVAC"
+       ]
+      },
+      {
+       "t": "評估開胸止血",
+       "note": "即時 1,500 mL 或持續 >200–250 mL/h",
+       "src": "JTS74 p.8",
+       "cap": [
+        "SURG"
+       ]
+      },
+      {
+       "t": "評估立即後送",
+       "note": "需開胸時（本站無開胸）",
+       "src": "推論",
+       "cap": [
+        "EVAC"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "T1-P11",
+     "layer": "可能發生問題",
+     "name": "引流瓶（水封）異常、翻倒或斷接",
+     "monitor": [
+      {
+       "t": "每小時查水封高度及瓶身位置",
+       "src": "慣例",
+       "cap": [
+        "MON"
+       ]
+      },
+      {
+       "t": "確認瓶身低於胸部",
+       "src": "慣例",
+       "cap": [
+        "MON"
+       ]
+      },
+      {
+       "t": "確認接頭以膠帶固定",
+       "src": "慣例",
+       "cap": [
+        "MON"
+       ]
+      }
+     ],
+     "treat": [
+      {
+       "t": "引流瓶低於胸部並固定",
+       "src": "慣例",
+       "cap": [
+        "NURS"
+       ]
+      },
+      {
+       "t": "翻倒時立刻扶正",
+       "src": "慣例",
+       "cap": [
+        "NURS"
+       ]
+      },
+      {
+       "t": "必要時換瓶",
+       "src": "慣例",
+       "cap": [
+        "NURS"
+       ]
+      },
+      {
+       "t": "斷接時浸無菌水約 2 cm 或短暫夾管",
+       "src": "慣例",
+       "cap": [
+        "SURG"
+       ]
+      },
+      {
+       "t": "盡快接上新的無菌引流系統",
+       "src": "慣例",
+       "cap": [
+        "SURG"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "T1-P12",
+     "layer": "可能發生問題",
+     "name": "後送與飛行時的處理",
+     "monitor": [
+      {
+       "t": "出發前確認胸管功能、固定與血氧",
+       "src": "ATLS 11e Ch.15",
+       "cap": [
+        "MON"
+       ]
+      },
+      {
+       "t": "連續監測 SpO2 與 ETCO2",
+       "src": "推論",
+       "cap": [
+        "MON"
+       ],
+       "note": "途中"
+      },
+      {
+       "t": "交接置管日期、Fr、刻度及引流量",
+       "src": "推論",
+       "cap": [
+        "EVAC"
+       ]
+      }
+     ],
+     "treat": [
+      {
+       "t": "評估放胸管",
+       "note": "小氣胸後送前",
+       "src": "JTS74 p.4",
+       "cap": [
+        "SURG"
+       ]
+      },
+      {
+       "t": "接 Heimlich 閥或引流瓶",
+       "note": "出發前接好或確認引流瓶；有攜帶抽吸時維持 −20 cm H2O；無抽吸可用水封或 Heimlich 閥",
+       "src": "JTS97 p.10；ATLS 11e Ch.5；JTS74 p.10, 18",
+       "cap": [
+        "EVAC"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "T2",
+   "group": "proc",
+   "title": "氣管內管與機械通氣",
+   "problems": [
+    {
+     "id": "T2-0",
+     "layer": "置放與日常維護",
+     "name": "氣管內管與機械通氣",
+     "monitor": [
+      {
+       "t": "插管中每 1–2 分鐘量血壓",
+       "src": "JTS PFC Airway 2020 p.10",
+       "cap": [
+        "MON"
+       ]
+      },
+      {
+       "t": "插管後 15 分鐘內每 3–5 分鐘量壓",
+       "src": "JTS PFC Airway 2020 p.10",
+       "cap": [
+        "MON"
+       ]
+      },
+      {
+       "t": "核對管深刻度",
+       "src": "Tintinalli Ch.29A p.182",
+       "cap": [
+        "MON"
+       ],
+       "note": "每班及搬動前後"
+      },
+      {
+       "t": "測 cuff 壓",
+       "src": "慣例；CPG91 p.13–14；JTS80 p.22",
+       "cap": [
+        "MON"
+       ],
+       "note": "每 8 小時及搬動升降前後；目標 20–30 cmH2O"
+      },
+      {
+       "t": "每小時評估抽痰需求及呼吸器設定",
+       "src": "JTS70 2025 p.18–19",
+       "cap": [
+        "MON"
+       ]
+      },
+      {
+       "t": "每小時聽診並查氧氣存量、電池",
+       "src": "CPG91 p.44；慣例",
+       "cap": [
+        "MON"
+       ]
+      },
+      {
+       "t": "插管者至少每 4 小時口腔照護（牙刷）",
+       "src": "SHEA VAP 2022 p.691；JTS70 2025 p.11",
+       "cap": [
+        "NURS"
+       ]
+      }
+     ],
+     "treat": [
+      {
+       "t": "注意插管相關技術規範",
+       "note": "有訓練人員、藥物及抽吸才做；休克先復甦再插管",
+       "src": "JTS PFC Airway 2020 p.8–9；JTS39 2026 p.7",
+       "cap": [
+        "AIR",
+        "RES"
+       ]
+      },
+      {
+       "t": "用持續波形 ETCO2 確認管位",
+       "src": "JTS PFC Airway 2020 p.9",
+       "cap": [
+        "AIR"
+       ]
+      },
+      {
+       "t": "設定呼吸器",
+       "note": "潮氣量 6 mL/kg、PEEP 5 cmH2O、RR 14；目標 SpO2 92%、ETCO2 35–45 mmHg；plateau pressure < 30 cmH2O",
+       "src": "ATLS Ch.4 p.60；CPG91 p.15",
+       "cap": [
+        "VENT"
+       ]
+      },
+      {
+       "t": "抽痰",
+       "src": "JTS70 2025 p.18–19",
+       "cap": [
+        "AIR"
+       ],
+       "note": "每次 ≤ 15 秒、間隔 ≥ 30 秒"
+      },
+      {
+       "t": "床頭抬高 30–45°",
+       "src": "SHEA VAP 2022 p.691",
+       "cap": [
+        "NURS"
+       ]
+      },
+      {
+       "t": "不用 chlorhexidine 刷口",
+       "src": "SHEA VAP 2022 p.691",
+       "cap": [
+        "NURS"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "T2-P1",
+     "layer": "可能發生問題",
+     "name": "管路滑脫（意外拔管，含自拔）",
+     "monitor": [
+      {
+       "t": "持續監測 ETCO2 波形",
+       "src": "JTS PFC Airway 2020 p.23–24",
+       "cap": [
+        "MON"
+       ],
+       "note": "波形消失或驟降時警覺滑脫"
+      },
+      {
+       "t": "留意病人突然能出聲",
+       "src": "ATLS Ch.4 p.61",
+       "cap": [
+        "MON"
+       ]
+      },
+      {
+       "t": "核對管深刻度",
+       "src": "ATLS Ch.4 p.61",
+       "cap": [
+        "MON"
+       ],
+       "note": "看是否改變"
+      }
+     ],
+     "treat": [
+      {
+       "t": "確實固定",
+       "src": "Tintinalli Ch.29A p.184",
+       "cap": [
+        "NURS"
+       ]
+      },
+      {
+       "t": "搬運時專人扶管",
+       "src": "Tintinalli Ch.29A p.184",
+       "cap": [
+        "NURS"
+       ]
+      },
+      {
+       "t": "疑滑脫且無法確認時拔管改 BVM＋PEEP",
+       "src": "ATLS Ch.4 p.61",
+       "cap": [
+        "AIR",
+        "VENT"
+       ]
+      },
+      {
+       "t": "評估改 SGA 或環甲膜切開",
+       "note": "重插失敗時",
+       "src": "ATLS Ch.4 p.55–57",
+       "cap": [
+        "AIR"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "T2-P2",
+     "layer": "可能發生問題",
+     "name": "呼吸器相關肺炎（VAP）",
+     "monitor": [
+      {
+       "t": "觀察新發燒、膿痰、FiO2 或 PEEP 上升",
+       "src": "慣例",
+       "cap": [
+        "MON"
+       ]
+      },
+      {
+       "t": "POCUS 查肺實質化",
+       "src": "慣例；推論",
+       "cap": [
+        "EXAM"
+       ],
+       "note": "有 X 光才照；本站無痰培養能力"
+      }
+     ],
+     "treat": [
+      {
+       "t": "床頭抬高 30–45°",
+       "src": "SHEA VAP 2022 p.691",
+       "cap": [
+        "NURS"
+       ]
+      },
+      {
+       "t": "不用 chlorhexidine 刷口",
+       "src": "SHEA VAP 2022 p.691",
+       "cap": [
+        "NURS"
+       ]
+      },
+      {
+       "t": "儘早給予抗生素",
+       "note": "依敗血症階梯選用經驗性抗生素",
+       "src": "CPG91 p.39–40",
+       "cap": [
+        "RES"
+       ]
+      },
+      {
+       "t": "評估後送",
+       "note": "惡化時",
+       "src": "推論",
+       "cap": [
+        "EVAC"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "T2-P3",
+     "layer": "可能發生問題",
+     "name": "躁動",
+     "monitor": [
+      {
+       "t": "追蹤 RASS",
+       "src": "CPG91 p.70",
+       "cap": [
+        "MON"
+       ],
+       "note": "RASS +2 或 +3 時評估躁動"
+      },
+      {
+       "t": "先查 SpO2、ETCO2、血壓、血糖",
+       "src": "CPG91 p.31",
+       "cap": [
+        "MON"
+       ]
+      },
+      {
+       "t": "排除膀胱脹及 DOPE",
+       "src": "慣例",
+       "cap": [
+        "EXAM"
+       ]
+      }
+     ],
+     "treat": [
+      {
+       "t": "先止痛再鎮靜",
+       "src": "Tintinalli Ch.29B p.192",
+       "cap": [
+        "PAIN"
+       ]
+      },
+      {
+       "t": "給 ketamine",
+       "note": "慢推、低劑量滴定",
+       "src": "CPG91 p.31",
+       "cap": [
+        "PAIN"
+       ]
+      },
+      {
+       "t": "必要時使用軟式約束",
+       "src": "慣例",
+       "cap": [
+        "NURS"
+       ]
+      },
+      {
+       "t": "找躁動原因",
+       "note": "先找疼痛、缺氧、低壓、低血糖原因",
+       "src": "CPG91 p.31",
+       "cap": [
+        "EXAM"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "T2-P4",
+     "layer": "可能發生問題",
+     "name": "鎮靜過深或不足",
+     "monitor": [
+      {
+       "t": "追蹤 RASS",
+       "src": "Tintinalli Ch.29B p.192",
+       "cap": [
+        "MON"
+       ],
+       "note": "通常目標 −2 到 0"
+      },
+      {
+       "t": "評估鎮靜深度與呼吸器同步",
+       "src": "JTS PFC Airway 2020 p.24",
+       "cap": [
+        "MON"
+       ],
+       "note": "ETCO2 curare cleft 提示人機不同步"
+      }
+     ],
+     "treat": [
+      {
+       "t": "低劑量慢給並頻繁追加",
+       "src": "CPG91 p.31",
+       "cap": [
+        "PAIN"
+       ]
+      },
+      {
+       "t": "避免持續 benzodiazepine 點滴",
+       "src": "Tintinalli Ch.29B p.192",
+       "cap": [
+        "PAIN"
+       ]
+      },
+      {
+       "t": "不可只給肌鬆劑而不給鎮靜止痛",
+       "src": "JTS PFC Airway 2020 p.10",
+       "cap": [
+        "PAIN"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "T2-P5",
+     "layer": "可能發生問題",
+     "name": "cuff 漏氣或過壓",
+     "monitor": [
+      {
+       "t": "聽漏氣聲並看吐氣潮氣量",
+       "src": "JTS PFC Airway 2020 p.24",
+       "cap": [
+        "MON"
+       ]
+      },
+      {
+       "t": "監測 ETCO2 波形",
+       "src": "JTS PFC Airway 2020 p.24",
+       "cap": [
+        "MON"
+       ],
+       "note": "留意是否變差"
+      },
+      {
+       "t": "測 cuff 壓",
+       "src": "慣例",
+       "cap": [
+        "MON"
+       ],
+       "note": "以壓力計測；> 30 cmH2O 為過壓"
+      }
+     ],
+     "treat": [
+      {
+       "t": "檢查 pilot balloon 與閥門",
+       "src": "Tintinalli Ch.29A p.184",
+       "cap": [
+        "EXAM"
+       ]
+      },
+      {
+       "t": "重新量 cuff 壓",
+       "src": "慣例",
+       "cap": [
+        "MON"
+       ]
+      },
+      {
+       "t": "評估換管",
+       "note": "cuff 破裂時；用 bougie 換管",
+       "src": "JTS PFC Airway 2020 p.8",
+       "cap": [
+        "AIR"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "T2-P6",
+     "layer": "可能發生問題",
+     "name": "管路阻塞（痰栓、凝血塊、咬管、折管）",
+     "monitor": [
+      {
+       "t": "監測尖峰壓與 plateau",
+       "src": "Tintinalli Ch.29B p.190",
+       "cap": [
+        "MON"
+       ],
+       "note": "尖峰壓上升但 plateau 正常時警覺管路阻塞"
+      },
+      {
+       "t": "監測 ETCO2 波形",
+       "src": "JTS PFC Airway 2020 p.24",
+       "cap": [
+        "MON"
+       ],
+       "note": "鯊魚鰭狀或波形消失"
+      },
+      {
+       "t": "檢查抽痰管能否放入",
+       "src": "JTS PFC Airway 2020 p.24",
+       "cap": [
+        "EXAM"
+       ]
+      }
+     ],
+     "treat": [
+      {
+       "t": "人工鼻（HME）保濕",
+       "src": "JTS PFC Airway 2020 p.6",
+       "cap": [
+        "AIR"
+       ]
+      },
+      {
+       "t": "抽痰",
+       "src": "JTS PFC Airway 2020 p.6",
+       "cap": [
+        "AIR"
+       ],
+       "note": "規律"
+      },
+      {
+       "t": "打生理食鹽水抽痰",
+       "src": "JTS PFC Airway 2020 p.6",
+       "cap": [
+        "AIR"
+       ],
+       "note": "稠痰時先打再抽"
+      },
+      {
+       "t": "放咬口器",
+       "src": "慣例",
+       "cap": [
+        "AIR"
+       ]
+      },
+      {
+       "t": "評估換管",
+       "note": "抽不通時；用 bougie 換管",
+       "src": "JTS PFC Airway 2020 p.8",
+       "cap": [
+        "AIR"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "T2-P8",
+     "layer": "可能發生問題",
+     "name": "氣壓傷或張力性氣胸",
+     "monitor": [
+      {
+       "t": "監測尖峰壓與 plateau",
+       "src": "慣例",
+       "cap": [
+        "MON"
+       ],
+       "note": "尖峰壓及 plateau 同時上升時警覺氣壓傷或張力性氣胸"
+      },
+      {
+       "t": "留意低血壓、單側呼吸音、皮下氣腫",
+       "src": "慣例",
+       "cap": [
+        "MON"
+       ]
+      },
+      {
+       "t": "POCUS 看 lung sliding；每小時聽診",
+       "src": "JTS PFC Airway 2020 p.18",
+       "cap": [
+        "EXAM"
+       ]
+      }
+     ],
+     "treat": [
+      {
+       "t": "設定呼吸器",
+       "note": "潮氣量 6 mL/kg、plateau < 30；阻塞性肺病注意 auto-PEEP",
+       "src": "Tintinalli Ch.29B p.190；Tintinalli Ch.29B p.192",
+       "cap": [
+        "VENT"
+       ]
+      },
+      {
+       "t": "拔開呼吸器改手壓",
+       "src": "ATLS Ch.4 p.61",
+       "cap": [
+        "VENT"
+       ]
+      },
+      {
+       "t": "減壓",
+       "src": "ATLS Ch.4 p.61",
+       "cap": [
+        "SURG"
+       ]
+      },
+      {
+       "t": "評估放胸管",
+       "note": "減壓後",
+       "src": "ATLS Ch.4 p.61",
+       "cap": [
+        "SURG"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "T2-P9",
+     "layer": "可能發生問題",
+     "name": "低血壓（插管後或正壓造成）",
+     "monitor": [
+      {
+       "t": "插管中每 1–2 分鐘量血壓",
+       "src": "JTS PFC Airway 2020 p.10",
+       "cap": [
+        "MON"
+       ]
+      },
+      {
+       "t": "插管後 15 分鐘內每 3–5 分鐘量壓",
+       "src": "JTS PFC Airway 2020 p.10；Tintinalli Ch.29A p.185",
+       "cap": [
+        "MON"
+       ],
+       "note": "留意急診插管後低壓"
+      }
+     ],
+     "treat": [
+      {
+       "t": "評估插管",
+       "note": "先復甦再插管",
+       "src": "JTS39 2026 p.7",
+       "cap": [
+        "RES"
+       ]
+      },
+      {
+       "t": "鎮靜藥減量",
+       "src": "JTS39 2026 p.7",
+       "cap": [
+        "RES"
+       ]
+      },
+      {
+       "t": "輸液治療",
+       "note": "輸液或 walking blood bank 全血",
+       "src": "JTS PFC Airway 2020 p.10",
+       "cap": [
+        "RES"
+       ]
+      },
+      {
+       "t": "給升壓劑",
+       "note": "依 protocol",
+       "src": "CPG91 p.40",
+       "cap": [
+        "RES"
+       ]
+      },
+      {
+       "t": "評估遠距會診",
+       "src": "CPG91 p.40",
+       "cap": [
+        "TELE"
+       ]
+      },
+      {
+       "t": "auto-PEEP 時拔開呼吸器 15–20 秒",
+       "src": "Tintinalli Ch.29B p.192",
+       "cap": [
+        "VENT"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "T2-P10",
+     "layer": "可能發生問題",
+     "name": "氧氣與電力耗竭",
+     "monitor": [
+      {
+       "t": "每小時記鋼瓶壓力及剩餘分鐘",
+       "src": "慣例",
+       "cap": [
+        "MON"
+       ],
+       "note": "剩餘分鐘＝(psi − 200) × 係數 ÷ 流量；E 瓶係數 0.28"
+      },
+      {
+       "t": "檢查氧氣與電池",
+       "src": "慣例",
+       "cap": [
+        "MON"
+       ]
+      }
+     ],
+     "treat": [
+      {
+       "t": "降低氧合目標（SpO2 > 92%）",
+       "note": "不追求 100%",
+       "src": "CPG91 p.15",
+       "cap": [
+        "VENT"
+       ]
+      },
+      {
+       "t": "能用製氧機就使用",
+       "src": "JTS PFC Airway 2020 p.5",
+       "cap": [
+        "VENT"
+       ]
+      },
+      {
+       "t": "無氧時改不接氧通氣，再輪流手壓 BVM＋PEEP",
+       "src": "CPG91 p.44",
+       "cap": [
+        "VENT"
+       ]
+      },
+      {
+       "t": "評估後送",
+       "note": "氧氣無法補給時",
+       "src": "推論",
+       "cap": [
+        "EVAC"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "T2-P11",
+     "layer": "可能發生問題",
+     "name": "口腔、嘴唇、眼睛壓傷",
+     "monitor": [
+      {
+       "t": "每 2 小時看口角、舌、唇與鼻孔",
+       "src": "CPG91 p.46",
+       "cap": [
+        "MON"
+       ]
+      },
+      {
+       "t": "注意燒傷水腫造成管位移",
+       "src": "JTS70 2018 p.3",
+       "cap": [
+        "MON"
+       ]
+      },
+      {
+       "t": "檢查眼表乾燥與壓傷",
+       "src": "CPG91 p.41",
+       "cap": [
+        "MON"
+       ]
+      }
+     ],
+     "treat": [
+      {
+       "t": "管路位置每 24 小時輪替",
+       "src": "CPG91 p.43",
+       "cap": [
+        "NURS"
+       ]
+      },
+      {
+       "t": "每小時護唇",
+       "src": "CPG91 p.43",
+       "cap": [
+        "NURS"
+       ]
+      },
+      {
+       "t": "咬口器墊紗布",
+       "src": "慣例",
+       "cap": [
+        "NURS"
+       ]
+      },
+      {
+       "t": "點人工淚液",
+       "src": "CPG91 p.41",
+       "cap": [
+        "NURS"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "T2-P12",
+     "layer": "可能發生問題",
+     "name": "突然惡化（DOPE 鑑別，含主支氣管插入）",
+     "monitor": [
+      {
+       "t": "監測 SpO2 與 ETCO2",
+       "src": "ATLS Ch.4 p.61",
+       "cap": [
+        "MON"
+       ],
+       "note": "留意 SpO2 下降與 ETCO2 異常"
+      },
+      {
+       "t": "留意呼吸器壓力警報",
+       "src": "ATLS Ch.4 p.61",
+       "cap": [
+        "MON"
+       ]
+      },
+      {
+       "t": "每小時聽診並觀察通氣",
+       "src": "JTS PFC Airway 2020 p.18",
+       "cap": [
+        "MON"
+       ],
+       "note": "檢查雙側呼吸音與 SpO2"
+      },
+      {
+       "t": "觀察尖峰壓與管深刻度",
+       "src": "慣例",
+       "cap": [
+        "MON"
+       ]
+      },
+      {
+       "t": "以 POCUS 看 lung sliding",
+       "src": "慣例",
+       "cap": [
+        "EXAM"
+       ],
+       "note": "確認雙側"
+      }
+     ],
+     "treat": [
+      {
+       "t": "拔開呼吸器改手壓",
+       "src": "ATLS Ch.4 p.61",
+       "cap": [
+        "VENT"
+       ],
+       "note": "先做"
+      },
+      {
+       "t": "查管深與 ETCO2",
+       "src": "ATLS Ch.4 p.61",
+       "cap": [
+        "EXAM"
+       ]
+      },
+      {
+       "t": "放抽痰管",
+       "src": "ATLS Ch.4 p.61",
+       "cap": [
+        "AIR"
+       ]
+      },
+      {
+       "t": "聽診加 POCUS",
+       "src": "ATLS Ch.4 p.61",
+       "cap": [
+        "EXAM"
+       ]
+      },
+      {
+       "t": "減壓",
+       "src": "ATLS Ch.4 p.61",
+       "cap": [
+        "SURG"
+       ],
+       "note": "必要時"
+      },
+      {
+       "t": "另評估 auto-PEEP 疊氣",
+       "src": "慣例",
+       "cap": [
+        "VENT"
+       ]
+      },
+      {
+       "t": "插管時觀察過聲門並記管深",
+       "src": "Tintinalli Ch.29A p.185",
+       "cap": [
+        "AIR"
+       ],
+       "h": "主支氣管插入"
+      },
+      {
+       "t": "cuff 放氣後退管 1–2 cm",
+       "src": "慣例",
+       "cap": [
+        "AIR"
+       ],
+       "h": "主支氣管插入"
+      },
+      {
+       "t": "退管後重聽診並看 ETCO2",
+       "src": "慣例",
+       "cap": [
+        "EXAM"
+       ],
+       "h": "主支氣管插入"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "T3",
+   "group": "proc",
+   "title": "環甲膜切開術（及其管路）",
+   "problems": [
+    {
+     "id": "T3-0",
+     "layer": "置放與日常維護",
+     "name": "環甲膜切開術（及其管路）",
+     "monitor": [
+      {
+       "t": "核對管深刻度",
+       "src": "ATLS Ch.4 p.61",
+       "cap": [
+        "MON"
+       ],
+       "note": "每班及搬動前後"
+      },
+      {
+       "t": "每 24 小時及髒污時換敷料、查造口",
+       "src": "慣例",
+       "cap": [
+        "NURS"
+       ]
+      },
+      {
+       "t": "每 8 小時及搬動升降前後測 cuff 壓；每小時評估抽痰需求",
+       "src": "CPG91 p.13–14",
+       "cap": [
+        "MON"
+       ],
+       "note": "cuff 目標 20–30 cmH2O"
+      },
+      {
+       "t": "留置超過 48 小時安排後送",
+       "src": "Tintinalli Ch.30 p.198",
+       "cap": [
+        "EVAC"
+       ]
+      },
+      {
+       "t": "聽診呼吸音",
+       "src": "Tintinalli Ch.30 p.198",
+       "cap": [
+        "MON"
+       ],
+       "note": "雙側"
+      },
+      {
+       "t": "監測 SpO2",
+       "src": "Tintinalli Ch.30 p.198",
+       "cap": [
+        "MON"
+       ],
+       "note": "留意 SpO2 下降"
+      }
+     ],
+     "treat": [
+      {
+       "t": "PCC 確定性呼吸道優先考慮環甲切",
+       "src": "CPG91 p.15",
+       "cap": [
+        "AIR"
+       ]
+      },
+      {
+       "t": "給 ketamine",
+       "note": "1（–2）mg/kg IV；或 3–4 mg/kg IM",
+       "src": "JTS PFC Airway 2020 p.7, 21",
+       "cap": [
+        "PAIN"
+       ]
+      },
+      {
+       "t": "局麻皮膚及環甲膜各 1–2 mL",
+       "src": "JTS PFC Airway 2020 p.7, 21",
+       "cap": [
+        "PAIN"
+       ]
+      },
+      {
+       "t": "放管",
+       "note": "優先 6 mm 氣切管；勿用 ≥ 7 mm；氣管內管只插 2–3 cm；只插到 cuff 剛進氣管",
+       "src": "Tintinalli Ch.30 p.195；Tintinalli Ch.30 p.196",
+       "cap": [
+        "AIR"
+       ]
+      },
+      {
+       "t": "以 ETCO2 確認管位",
+       "src": "JTS PFC Airway 2020 p.21–22",
+       "cap": [
+        "AIR"
+       ],
+       "note": "置管後"
+      },
+      {
+       "t": "接 BVM＋PEEP",
+       "src": "JTS PFC Airway 2020 p.21–22",
+       "cap": [
+        "VENT"
+       ]
+      },
+      {
+       "t": "縫線加頸帶固定",
+       "src": "JTS PFC Airway 2020 p.21–22",
+       "cap": [
+        "SURG"
+       ],
+       "note": "帶下可容 2 指"
+      },
+      {
+       "t": "主支氣管插入時放氣退管再確認",
+       "src": "慣例",
+       "cap": [
+        "AIR"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "T3-P1",
+     "layer": "可能發生問題",
+     "name": "出血（切口、甲狀腺動脈或靜脈）",
+     "monitor": [
+      {
+       "t": "觀察敷料滲血及抽痰帶血",
+       "src": "慣例",
+       "cap": [
+        "MON"
+       ]
+      },
+      {
+       "t": "追蹤 POC Hb 趨勢",
+       "src": "慣例",
+       "cap": [
+        "MON"
+       ]
+      },
+      {
+       "t": "持續評估呼吸道是否受血液影響",
+       "src": "慣例",
+       "cap": [
+        "AIR"
+       ]
+      }
+     ],
+     "treat": [
+      {
+       "t": "切皮沿正中線縱切",
+       "src": "Tintinalli Ch.30 p.196",
+       "cap": [
+        "SURG"
+       ]
+      },
+      {
+       "t": "先直接壓迫",
+       "src": "Tintinalli Ch.30 p.197–198",
+       "cap": [
+        "SURG"
+       ]
+      },
+      {
+       "t": "血流不止時用止血敷料或結紮",
+       "src": "Tintinalli Ch.30 p.197–198",
+       "cap": [
+        "SURG"
+       ]
+      },
+      {
+       "t": "必要時啟動全血",
+       "src": "推論",
+       "cap": [
+        "RES"
+       ]
+      },
+      {
+       "t": "評估後送",
+       "note": "止不住時",
+       "src": "推論",
+       "cap": [
+        "EVAC"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "T3-P2",
+     "layer": "可能發生問題",
+     "name": "管路滑脫",
+     "monitor": [
+      {
+       "t": "監測 ETCO2 波形與病人是否可出聲",
+       "src": "JTS PFC Airway 2020 p.24",
+       "cap": [
+        "MON"
+       ],
+       "note": "ETCO2 波形消失或病人可出聲時警覺滑脫"
+      },
+      {
+       "t": "核對管深刻度",
+       "src": "ATLS Ch.4 p.61",
+       "cap": [
+        "MON"
+       ],
+       "note": "查看皮膚處刻度"
+      },
+      {
+       "t": "觀察呼吸與氧合變化",
+       "src": "ATLS Ch.4 p.61",
+       "cap": [
+        "MON"
+       ]
+      }
+     ],
+     "treat": [
+      {
+       "t": "縫線加頸帶固定",
+       "src": "JTS PFC Airway 2020 p.21–22",
+       "cap": [
+        "NURS"
+       ],
+       "note": "雙重固定"
+      },
+      {
+       "t": "手不離管",
+       "src": "JTS PFC Airway 2020 p.21–22",
+       "cap": [
+        "NURS"
+       ]
+      },
+      {
+       "t": "評估從原造口重放",
+       "note": "脫出時；沿 bougie 重放",
+       "src": "JTS PFC Airway 2020 p.8",
+       "cap": [
+        "AIR"
+       ]
+      },
+      {
+       "t": "勿盲推",
+       "src": "推論",
+       "cap": [
+        "AIR"
+       ]
+      },
+      {
+       "t": "放不回時改 BVM",
+       "src": "推論",
+       "cap": [
+        "VENT"
+       ]
+      },
+      {
+       "t": "放不回時蓋造口",
+       "src": "推論",
+       "cap": [
+        "AIR"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "T3-P3",
+     "layer": "可能發生問題",
+     "name": "誤入皮下（假道）／皮下氣腫",
+     "monitor": [
+      {
+       "t": "監測呼吸道壓力並聽診呼吸音",
+       "src": "Tintinalli Ch.30 p.198",
+       "cap": [
+        "MON"
+       ],
+       "note": "呼吸道壓力高且聽不到呼吸音時警覺誤入皮下"
+      },
+      {
+       "t": "觀察大量皮下氣腫",
+       "src": "Tintinalli Ch.30 p.198",
+       "cap": [
+        "MON"
+       ]
+      },
+      {
+       "t": "確認是否有 ETCO2",
+       "src": "JTS PFC Airway 2020 p.9",
+       "cap": [
+        "EXAM"
+       ]
+      },
+      {
+       "t": "觸診頸胸捻髮感",
+       "src": "慣例",
+       "cap": [
+        "MON"
+       ]
+      },
+      {
+       "t": "畫出皮下氣腫範圍，追蹤是否擴大",
+       "src": "慣例",
+       "cap": [
+        "MON"
+       ]
+      },
+      {
+       "t": "用 POCUS 排除氣胸",
+       "src": "推論",
+       "cap": [
+        "EXAM"
+       ]
+      }
+     ],
+     "treat": [
+      {
+       "t": "用 bougie 引導置管",
+       "src": "JTS PFC Airway 2020 p.8",
+       "cap": [
+        "AIR"
+       ]
+      },
+      {
+       "t": "排除假道與 cuff 漏氣",
+       "note": "先做",
+       "src": "推論",
+       "cap": [
+        "EXAM"
+       ]
+      },
+      {
+       "t": "排除氣胸",
+       "src": "推論",
+       "cap": [
+        "EXAM"
+       ]
+      },
+      {
+       "t": "評估拔出重放",
+       "note": "懷疑假道時立刻",
+       "src": "Tintinalli Ch.30 p.198",
+       "cap": [
+        "AIR"
+       ]
+      },
+      {
+       "t": "管位正確且未擴大可觀察",
+       "src": "慣例",
+       "cap": [
+        "MON"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "T3-P4",
+     "layer": "可能發生問題",
+     "name": "管路阻塞（痰栓、血塊）",
+     "monitor": [
+      {
+       "t": "監測尖峰壓與 ETCO2 波形",
+       "src": "JTS PFC Airway 2020 p.24",
+       "cap": [
+        "MON"
+       ],
+       "note": "尖峰壓上升、ETCO2 鯊魚鰭或消失時警覺阻塞"
+      },
+      {
+       "t": "檢查抽痰管能否放入",
+       "src": "JTS PFC Airway 2020 p.24",
+       "cap": [
+        "EXAM"
+       ]
+      },
+      {
+       "t": "觀察氧合與通氣變化",
+       "src": "JTS PFC Airway 2020 p.24",
+       "cap": [
+        "MON"
+       ]
+      }
+     ],
+     "treat": [
+      {
+       "t": "人工鼻（HME）保濕",
+       "src": "CPG91 p.14",
+       "cap": [
+        "AIR"
+       ]
+      },
+      {
+       "t": "抽痰",
+       "src": "CPG91 p.14",
+       "cap": [
+        "AIR"
+       ],
+       "note": "規律"
+      },
+      {
+       "t": "抽痰前先給氧",
+       "src": "Tintinalli Ch.247 p.1601",
+       "cap": [
+        "VENT"
+       ]
+      },
+      {
+       "t": "打生理食鹽水抽痰",
+       "src": "Tintinalli Ch.247 p.1601",
+       "cap": [
+        "AIR"
+       ]
+      },
+      {
+       "t": "評估換管",
+       "note": "仍不通時；以 bougie 換管",
+       "src": "JTS PFC Airway 2020 p.8",
+       "cap": [
+        "AIR"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "T3-P7",
+     "layer": "可能發生問題",
+     "name": "cuff 漏氣或過壓",
+     "monitor": [
+      {
+       "t": "聽漏氣聲並看吐氣潮氣量",
+       "src": "CPG91 p.13–14",
+       "cap": [
+        "MON"
+       ]
+      },
+      {
+       "t": "監測 ETCO2 波形",
+       "src": "CPG91 p.13–14",
+       "cap": [
+        "MON"
+       ],
+       "note": "留意變化"
+      },
+      {
+       "t": "測 cuff 壓",
+       "src": "CPG91 p.13–14",
+       "cap": [
+        "MON"
+       ]
+      }
+     ],
+     "treat": [
+      {
+       "t": "檢查 pilot balloon 與閥門",
+       "note": "pilot balloon 應硬但可壓",
+       "src": "Tintinalli Ch.29A p.184；JTS PFC Airway 2020 p.21–22",
+       "cap": [
+        "EXAM",
+        "AIR"
+       ]
+      },
+      {
+       "t": "重新量 cuff 壓",
+       "src": "慣例",
+       "cap": [
+        "MON"
+       ]
+      },
+      {
+       "t": "評估換管",
+       "note": "cuff 破裂時；用 bougie 換管",
+       "src": "JTS PFC Airway 2020 p.8",
+       "cap": [
+        "AIR"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "T3-P8",
+     "layer": "可能發生問題",
+     "name": "氣胸",
+     "monitor": [
+      {
+       "t": "監測尖峰壓、plateau 與氧合",
+       "src": "Tintinalli Ch.30 p.198",
+       "cap": [
+        "MON"
+       ],
+       "note": "置後初始通氣時特別注意"
+      },
+      {
+       "t": "聽診並以 POCUS 查肺滑動",
+       "src": "推論",
+       "cap": [
+        "EXAM"
+       ]
+      }
+     ],
+     "treat": [
+      {
+       "t": "剛放好勿猛壓 BVM",
+       "src": "推論",
+       "cap": [
+        "VENT"
+       ]
+      },
+      {
+       "t": "設定呼吸器",
+       "note": "潮氣量 6 mL/kg、plateau < 30；阻塞性肺病注意 auto-PEEP",
+       "src": "Tintinalli Ch.29B p.190；Tintinalli Ch.29B p.192",
+       "cap": [
+        "VENT"
+       ]
+      },
+      {
+       "t": "拔開呼吸器改手壓",
+       "src": "ATLS Ch.4 p.61",
+       "cap": [
+        "VENT"
+       ]
+      },
+      {
+       "t": "評估放胸管",
+       "src": "ATLS Ch.4 p.61",
+       "cap": [
+        "SURG"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "T3-P11",
+     "layer": "可能發生問題",
+     "name": "疼痛或躁動",
+     "monitor": [
+      {
+       "t": "追蹤 RASS",
+       "src": "CPG91 p.32",
+       "cap": [
+        "MON"
+       ]
+      },
+      {
+       "t": "評估疼痛分數",
+       "src": "CPG91 p.32",
+       "cap": [
+        "MON"
+       ]
+      },
+      {
+       "t": "觀察躁動與管路安全",
+       "src": "CPG91 p.32",
+       "cap": [
+        "MON"
+       ]
+      }
+     ],
+     "treat": [
+      {
+       "t": "先止痛再鎮靜",
+       "note": "通常不需重度持續鎮靜",
+       "src": "Tintinalli Ch.29B p.192",
+       "cap": [
+        "PAIN"
+       ]
+      },
+      {
+       "t": "給 ketamine",
+       "note": "慢推、低劑量滴定",
+       "src": "CPG91 p.31",
+       "cap": [
+        "PAIN"
+       ]
+      },
+      {
+       "t": "必要時使用軟式約束",
+       "src": "慣例",
+       "cap": [
+        "NURS"
+       ]
+      },
+      {
+       "t": "找躁動原因",
+       "note": "先找疼痛、缺氧、低壓、低血糖原因",
+       "src": "CPG91 p.31",
+       "cap": [
+        "EXAM"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "T4",
+   "group": "proc",
+   "title": "尿管（Foley）",
+   "problems": [
+    {
+     "id": "T4-0",
+     "layer": "置放與日常維護",
+     "name": "尿管（Foley）",
+     "monitor": [
+      {
+       "t": "充氣時監測疼痛與阻力",
+       "src": "慣例",
+       "cap": [
+        "MON"
+       ],
+       "note": "痛或阻力大時立即停",
+       "h": "置放"
+      },
+      {
+       "t": "確認是否有尿液流出",
+       "src": "慣例",
+       "cap": [
+        "MON"
+       ],
+       "h": "置放"
+      },
+      {
+       "t": "POCUS 看膀胱內有無氣球",
+       "src": "慣例",
+       "cap": [
+        "EXAM"
+       ],
+       "h": "置放"
+      },
+      {
+       "t": "監測尿量",
+       "src": "JTS73 p.10",
+       "cap": [
+        "MON"
+       ],
+       "note": "每小時記錄；每小時記錄輸出及尿量趨勢",
+       "h": "留置"
+      },
+      {
+       "t": "搬動翻身後查管路無折壓",
+       "src": "推論",
+       "cap": [
+        "MON"
+       ],
+       "h": "留置"
+      },
+      {
+       "t": "評估是否仍需留置",
+       "src": "SHEA CAUTI 2022 Table 1 p.3",
+       "cap": [
+        "MON"
+       ],
+       "note": "每天",
+       "h": "留置"
+      },
+      {
+       "t": "記錄置放、適應症及拔除時間",
+       "src": "SHEA CAUTI 2022 Table 1 p.3",
+       "cap": [
+        "NURS"
+       ],
+       "h": "留置"
+      },
+      {
+       "t": "每 2 小時翻身時看尿道口",
+       "src": "推論",
+       "cap": [
+        "MON"
+       ],
+       "note": "留意疼痛或糜爛",
+       "h": "留置"
+      },
+      {
+       "t": "檢查固定處皮膚",
+       "src": "CPG91 p.46",
+       "cap": [
+        "MON"
+       ],
+       "h": "留置"
+      },
+      {
+       "t": "拔後 6 小時內看能否自解",
+       "src": "慣例",
+       "cap": [
+        "MON"
+       ],
+       "h": "拔除"
+      },
+      {
+       "t": "POCUS 量測膀胱殘尿",
+       "src": "慣例",
+       "cap": [
+        "EXAM"
+       ],
+       "note": "拔後",
+       "h": "拔除"
+      }
+     ],
+     "treat": [
+      {
+       "t": "注意尿管置放相關技術規範",
+       "note": "休克、燒傷復甦或尿滯留才置管；先排除尿道損傷；FAST 先於置管；無菌置放並選最小有效管徑",
+       "src": "SHEA CAUTI 2022 p.10；ATLS Ch.21 p.294；SHEA CAUTI 2022 Table 1 p.4",
+       "cap": [
+        "SURG",
+        "EXAM"
+       ],
+       "h": "置放"
+      },
+      {
+       "t": "見尿液回流才充氣球",
+       "src": "慣例",
+       "cap": [
+        "SURG"
+       ],
+       "h": "置放"
+      },
+      {
+       "t": "疑誤充立刻放氣退出並換管重放",
+       "src": "慣例",
+       "cap": [
+        "SURG"
+       ],
+       "h": "置放"
+      },
+      {
+       "t": "監測尿量",
+       "note": "Foley 尿量目標 > 0.5 mL/kg/h",
+       "src": "CPG91 p.12",
+       "cap": [
+        "MON"
+       ],
+       "h": "留置"
+      },
+      {
+       "t": "固定大腿或下腹",
+       "src": "SHEA CAUTI 2022 Table 1 p.4",
+       "cap": [
+        "NURS"
+       ],
+       "h": "留置"
+      },
+      {
+       "t": "維持密閉系統",
+       "src": "SHEA CAUTI 2022 Table 1 p.4",
+       "cap": [
+        "NURS"
+       ],
+       "h": "留置"
+      },
+      {
+       "t": "集尿袋低於膀胱",
+       "src": "SHEA CAUTI 2022 Table 1 p.4",
+       "cap": [
+        "NURS"
+       ],
+       "h": "留置"
+      },
+      {
+       "t": "管路勿折",
+       "src": "SHEA CAUTI 2022 Table 1 p.4",
+       "cap": [
+        "NURS"
+       ],
+       "h": "留置"
+      },
+      {
+       "t": "不要例行換管、抗生素或膀胱沖洗",
+       "src": "SHEA CAUTI 2022 Table 1 p.5",
+       "cap": [
+        "NURS"
+       ],
+       "h": "留置"
+      },
+      {
+       "t": "固定處每天換位置",
+       "src": "慣例",
+       "cap": [
+        "NURS"
+       ],
+       "h": "留置"
+      },
+      {
+       "t": "避免管子持續拉向單一方向",
+       "src": "慣例",
+       "cap": [
+        "NURS"
+       ],
+       "h": "留置"
+      },
+      {
+       "t": "不需每小時尿量即拔管",
+       "src": "推論",
+       "cap": [
+        "NURS"
+       ],
+       "h": "拔除"
+      },
+      {
+       "t": "量自解尿",
+       "note": "無症狀殘尿 > 500 mL 或有症狀 > 300 mL 為尿滯留",
+       "src": "推論；SHEA CAUTI 2022 p.10",
+       "cap": [
+        "EXAM"
+       ],
+       "h": "拔除"
+      }
+     ]
+    },
+    {
+     "id": "T4-P1",
+     "layer": "可能發生問題",
+     "name": "泌尿道感染（CAUTI）",
+     "monitor": [
+      {
+       "t": "監測發燒、寒顫、意識改變",
+       "src": "Tintinalli Ch.95 p.603",
+       "cap": [
+        "MON",
+        "EXAM"
+       ],
+       "note": "無症狀膿尿不作感染診斷"
+      },
+      {
+       "t": "留意恥骨上痛、腰側痛或新血尿",
+       "src": "Tintinalli Ch.95 p.603",
+       "cap": [
+        "MON"
+       ]
+      },
+      {
+       "t": "預防：維護管路並儘早拔除",
+       "src": "Tintinalli Ch.95 p.603",
+       "cap": [
+        "NURS"
+       ]
+      }
+     ],
+     "treat": [
+      {
+       "t": "儘早給予抗生素",
+       "src": "Tintinalli Ch.95 p.603",
+       "cap": [
+        "RES"
+       ]
+      },
+      {
+       "t": "有症狀時拔除或更換尿管",
+       "src": "Tintinalli Ch.95 p.603",
+       "cap": [
+        "RES"
+       ]
+      },
+      {
+       "t": "評估後送",
+       "note": "無法培養尿液／血液時",
+       "src": "Tintinalli Ch.95 p.603",
+       "cap": [
+        "EVAC"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "T4-P3",
+     "layer": "可能發生問題",
+     "name": "阻塞或管旁滲漏",
+     "monitor": [
+      {
+       "t": "監測尿量",
+       "src": "推論",
+       "cap": [
+        "MON"
+       ],
+       "note": "留意尿量突然下降"
+      },
+      {
+       "t": "觀察下腹脹痛或管旁滲尿",
+       "src": "推論",
+       "cap": [
+        "MON"
+       ]
+      },
+      {
+       "t": "POCUS 查看膀胱是否脹滿",
+       "src": "推論",
+       "cap": [
+        "EXAM"
+       ],
+       "note": "POCUS 量測膀胱殘尿"
+      },
+      {
+       "t": "留意床單濕或尿布有尿但袋量少",
+       "src": "推論",
+       "cap": [
+        "MON"
+       ]
+      },
+      {
+       "t": "核對尿量與血壓、心跳、乳酸",
+       "src": "推論",
+       "cap": [
+        "MON"
+       ]
+      }
+     ],
+     "treat": [
+      {
+       "t": "查管路折曲及集尿袋位置",
+       "note": "先做；尿量不合生理狀況時先查",
+       "src": "Tintinalli Ch.95 p.603",
+       "cap": [
+        "EXAM"
+       ]
+      },
+      {
+       "t": "評估換管",
+       "note": "長期結晶阻塞時常需換管；滲漏常為阻塞表現",
+       "src": "Tintinalli Ch.95 p.603",
+       "cap": [
+        "SURG"
+       ]
+      },
+      {
+       "t": "不要為預防而常規沖洗",
+       "src": "SHEA CAUTI 2022 Table 1 p.5",
+       "cap": [
+        "NURS"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "T4-P6",
+     "layer": "可能發生問題",
+     "name": "尿道損傷、假通道（含骨盆骨折）",
+     "monitor": [
+      {
+       "t": "檢查尿道口血、會陰或陰囊瘀血",
+       "src": "ATLS Ch.21 p.293–294；Tintinalli Ch.272 p.1841",
+       "cap": [
+        "EXAM",
+        "MON"
+       ],
+       "note": "骨盆骨折一律懷疑尿道傷"
+      },
+      {
+       "t": "留意無法自行解尿",
+       "src": "ATLS Ch.21 p.293–294",
+       "cap": [
+        "MON"
+       ]
+      }
+     ],
+     "treat": [
+      {
+       "t": "不要放尿管",
+       "src": "ATLS Ch.1 p.13",
+       "cap": [
+        "SURG"
+       ],
+       "note": "疑尿道傷時；勿經尿道放管"
+      },
+      {
+       "t": "評估恥骨上引流",
+       "note": "放恥骨上管；急需引流時；由熟手放",
+       "src": "ATLS Ch.21 p.294",
+       "cap": [
+        "SURG"
+       ]
+      },
+      {
+       "t": "非專科不要反覆硬插",
+       "src": "ATLS Ch.1 p.13",
+       "cap": [
+        "SURG"
+       ]
+      },
+      {
+       "t": "評估後送",
+       "note": "無法做 RUG 時",
+       "src": "ATLS Ch.1 p.13",
+       "cap": [
+        "EVAC"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "T4-P9",
+     "layer": "可能發生問題",
+     "name": "滑脫或被扯出（氣球未放氣）",
+     "monitor": [
+      {
+       "t": "追蹤 RASS",
+       "src": "CPG91 p.70",
+       "cap": [
+        "MON"
+       ],
+       "note": "躁動時；RASS +3 有拔管風險"
+      },
+      {
+       "t": "觀察尿道口出血",
+       "src": "",
+       "cap": [
+        "MON"
+       ]
+      },
+      {
+       "t": "翻身搬動時檢查固定",
+       "src": "慣例",
+       "cap": [
+        "MON"
+       ]
+      }
+     ],
+     "treat": [
+      {
+       "t": "確實固定",
+       "src": "推論",
+       "cap": [
+        "NURS"
+       ]
+      },
+      {
+       "t": "先處理疼痛、躁動",
+       "src": "推論",
+       "cap": [
+        "PAIN"
+       ]
+      },
+      {
+       "t": "必要才重放尿管",
+       "src": "推論",
+       "cap": [
+        "SURG"
+       ]
+      },
+      {
+       "t": "評估尿道傷",
+       "note": "扯出後",
+       "src": "推論",
+       "cap": [
+        "EXAM"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "T5",
+   "group": "proc",
+   "title": "筋膜切開術",
+   "problems": [
+    {
+     "id": "T5-0",
+     "layer": "置放與日常維護",
+     "name": "筋膜切開術",
+     "monitor": [
+      {
+       "t": "做神經血管檢查",
+       "src": "JTS17 2026 p.5",
+       "cap": [
+        "MON"
+       ],
+       "note": "高風險肢體每小時"
+      },
+      {
+       "t": "查看切口出血",
+       "src": "JTS12 p.14",
+       "cap": [
+        "MON"
+       ],
+       "note": "術後 30 分鐘內每幾分鐘"
+      },
+      {
+       "t": "其後每小時查脈搏、感覺、動作與疼痛",
+       "src": "推論",
+       "cap": [
+        "MON"
+       ]
+      },
+      {
+       "t": "換藥並觀察傷口",
+       "src": "CPG91 p.44",
+       "cap": [
+        "NURS"
+       ],
+       "note": "每日"
+      }
+     ],
+     "treat": [
+      {
+       "t": "注意筋膜切開術相關技術規範",
+       "note": "不做預防性切開；僅治療有症狀者；由受訓者執行；舒張壓減筋膜室壓 <30 mmHg 應減壓；所有筋膜室全長切開；小腿雙切口開 4 室",
+       "src": "JTS58 p.6；Tintinalli Ch.278 p.1879；JTS17 2026 p.6",
+       "cap": [
+        "SURG",
+        "EXAM"
+       ]
+      },
+      {
+       "t": "評估遠距會診",
+       "note": "即時視訊會診",
+       "src": "JTS58 p.6",
+       "cap": [
+        "TELE"
+       ]
+      },
+      {
+       "t": "先拆緊敷料或石膏",
+       "src": "Tintinalli Ch.278 p.1879",
+       "cap": [
+        "SURG"
+       ]
+      },
+      {
+       "t": "肢體與心同高",
+       "src": "Tintinalli Ch.278 p.1879",
+       "cap": [
+        "SURG"
+       ]
+      },
+      {
+       "t": "用濕到乾或 hydrogel 敷料",
+       "src": "JTS17 2026 p.6–7",
+       "cap": [
+        "NURS"
+       ]
+      },
+      {
+       "t": "48–72 小時二探",
+       "src": "Tintinalli Ch.278 p.1879",
+       "cap": [
+        "EVAC"
+       ]
+      },
+      {
+       "t": "7–10 天內關閉並後送",
+       "src": "Tintinalli Ch.278 p.1879",
+       "cap": [
+        "EVAC"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "T5-P1",
+     "layer": "可能發生問題",
+     "name": "出血",
+     "monitor": [
+      {
+       "t": "查看切口出血",
+       "src": "JTS12 p.14",
+       "cap": [
+        "MON"
+       ],
+       "note": "術後 30 分鐘內每幾分鐘"
+      },
+      {
+       "t": "其後每小時量敷料滲血",
+       "src": "推論",
+       "cap": [
+        "MON"
+       ]
+      },
+      {
+       "t": "追蹤 POC Hb 趨勢",
+       "src": "推論",
+       "cap": [
+        "MON"
+       ],
+       "note": "每 4–6 小時"
+      }
+     ],
+     "treat": [
+      {
+       "t": "慎用負壓傷口治療（NPWT）",
+       "src": "JTS17 2026 p.6–7",
+       "cap": [
+        "SURG"
+       ]
+      },
+      {
+       "t": "監測引流量",
+       "src": "JTS17 2026 p.6–7",
+       "cap": [
+        "MON"
+       ]
+      },
+      {
+       "t": "直壓、止血敷料、結紮或電燒",
+       "src": "JTS62 p.6",
+       "cap": [
+        "SURG"
+       ]
+      },
+      {
+       "t": "綁止血帶",
+       "src": "推論",
+       "cap": [
+        "RES"
+       ],
+       "note": "大出血時"
+      },
+      {
+       "t": "大出血時啟動 walking blood bank",
+       "src": "推論",
+       "cap": [
+        "RES"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "T5-P2",
+     "layer": "可能發生問題",
+     "name": "減壓不完全",
+     "monitor": [
+      {
+       "t": "追蹤疼痛、腫脹與神經症狀",
+       "src": "推論",
+       "cap": [
+        "MON"
+       ],
+       "note": "留意症狀未改善或惡化"
+      },
+      {
+       "t": "做神經血管檢查",
+       "src": "推論",
+       "cap": [
+        "MON"
+       ],
+       "note": "每小時"
+      }
+     ],
+     "treat": [
+      {
+       "t": "完整全長切開並用小腿雙切口",
+       "src": "JTS17 2026 p.6",
+       "cap": [
+        "SURG"
+       ]
+      },
+      {
+       "t": "評估遠距會診",
+       "src": "推論",
+       "cap": [
+        "TELE"
+       ]
+      },
+      {
+       "t": "評估延長切口",
+       "note": "遠距會診後",
+       "src": "推論",
+       "cap": [
+        "SURG"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "T5-P3",
+     "layer": "可能發生問題",
+     "name": "神經血管損傷（醫源性）",
+     "monitor": [
+      {
+       "t": "術前、術後立即及每小時記錄脈搏",
+       "src": "ATLS 11e Ch.10",
+       "cap": [
+        "MON"
+       ]
+      },
+      {
+       "t": "檢查遠端感覺與動作",
+       "src": "ATLS 11e Ch.10",
+       "cap": [
+        "MON"
+       ],
+       "note": "與脈搏同步記錄"
+      },
+      {
+       "t": "處置前先記錄基準狀態",
+       "src": "ATLS 11e Ch.10",
+       "cap": [
+        "EXAM"
+       ]
+      }
+     ],
+     "treat": [
+      {
+       "t": "內側切口避開大隱靜脈",
+       "src": "JTS17 2026 p.8",
+       "cap": [
+        "SURG"
+       ]
+      },
+      {
+       "t": "外側切口留意腓骨頭旁腓神經",
+       "src": "慣例",
+       "cap": [
+        "SURG"
+       ]
+      },
+      {
+       "t": "記錄交接",
+       "src": "推論",
+       "cap": [
+        "MON"
+       ]
+      },
+      {
+       "t": "評估後送",
+       "note": "已有損傷時",
+       "src": "推論",
+       "cap": [
+        "EVAC"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "T5-P4",
+     "layer": "可能發生問題",
+     "name": "感染",
+     "monitor": [
+      {
+       "t": "每日看分泌物顏色、氣味及周邊紅腫",
+       "src": "JTS62 p.10",
+       "cap": [
+        "MON"
+       ]
+      },
+      {
+       "t": "監測體溫",
+       "src": "JTS62 p.10",
+       "cap": [
+        "MON"
+       ],
+       "note": "追蹤趨勢"
+      },
+      {
+       "t": "留意減壓是否延遲 >12 小時",
+       "src": "JTS17 2026 p.6",
+       "cap": [
+        "MON"
+       ]
+      }
+     ],
+     "treat": [
+      {
+       "t": "儘早給予抗生素",
+       "note": "Best：ertapenem 1 g IV 每日；Better：cefazolin 2 g IV q6–8h 或 clindamycin",
+       "src": "JTS58 p.6",
+       "cap": [
+        "RES"
+       ]
+      },
+      {
+       "t": "評估清創",
+       "note": "壞死肌肉時；肌肉以 4C 判斷活性；不確定壞死組織保留 24–48 小時再看",
+       "src": "推論",
+       "cap": [
+        "SURG"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "T5-P5",
+     "layer": "可能發生問題",
+     "name": "橫紋肌溶解與高血鉀（再灌流）",
+     "monitor": [
+      {
+       "t": "監測尿量、尿色與尿液試紙潛血",
+       "src": "JTS58 p.4",
+       "cap": [
+        "MON"
+       ],
+       "note": "每小時"
+      },
+      {
+       "t": "連續心電監視並做 12 導程 ECG",
+       "src": "JTS58 p.4",
+       "cap": [
+        "MON"
+       ]
+      },
+      {
+       "t": "術後 24 小時內每 2–4 小時查 POC K",
+       "src": "推論",
+       "cap": [
+        "MON"
+       ]
+      }
+     ],
+     "treat": [
+      {
+       "t": "輸液治療",
+       "note": "尿量目標 100–200 mL/h",
+       "src": "JTS58 p.3",
+       "cap": [
+        "RES"
+       ]
+      },
+      {
+       "t": "評估給鈣劑",
+       "note": "高血鉀時；10% Ca gluconate 30 mL IV，10 分鐘推完",
+       "src": "UKKA 2026 p.14–15",
+       "cap": [
+        "RES"
+       ]
+      },
+      {
+       "t": "評估給 insulin＋glucose",
+       "note": "高血鉀時；regular insulin 10 U＋glucose 25 g；血糖 <7.0 mmol/L（126 mg/dL）時補糖：10% glucose 50 mL/h × 5 h",
+       "src": "UKKA 2026 p.14–15",
+       "cap": [
+        "RES"
+       ]
+      },
+      {
+       "t": "複查 K",
+       "note": "治療後第 1、2、4、6、24 小時",
+       "src": "UKKA 2026 p.16.3.3、17.1.2",
+       "cap": [
+        "MON"
+       ]
+      },
+      {
+       "t": "評估後送",
+       "note": "腎衰竭或高血鉀失控時",
+       "src": "推論",
+       "cap": [
+        "EVAC"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "T5-P6",
+     "layer": "可能發生問題",
+     "name": "疼痛",
+     "monitor": [
+      {
+       "t": "評估疼痛分數",
+       "src": "CPG91 p.43；ATLS 11e Ch.10",
+       "cap": [
+        "MON"
+       ],
+       "note": "每小時；尚未減壓肢體保留疼痛變化評估"
+      },
+      {
+       "t": "觀察換藥疼痛反應",
+       "src": "JTS70 p.16",
+       "cap": [
+        "MON"
+       ]
+      }
+     ],
+     "treat": [
+      {
+       "t": "多模式止痛",
+       "note": "口服止痛於換藥前 60 分鐘給；IV 止痛提前 15–30 分鐘",
+       "src": "JTS70 p.16",
+       "cap": [
+        "PAIN"
+       ]
+      },
+      {
+       "t": "給 ketamine",
+       "note": "0.5–1 mg/kg IV，換藥前 2–3 分鐘",
+       "src": "JTS70 p.16",
+       "cap": [
+        "PAIN"
+       ]
+      },
+      {
+       "t": "術中神經阻斷或 IV 鎮靜",
+       "src": "JTS58 p.6",
+       "cap": [
+        "PAIN"
+       ]
+      },
+      {
+       "t": "未減壓肢體不要做神經阻斷",
+       "src": "ATLS 11e Ch.10",
+       "cap": [
+        "PAIN"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "T5-P7",
+     "layer": "可能發生問題",
+     "name": "傷口照護與換藥",
+     "monitor": [
+      {
+       "t": "每日看肌肉顏色與收縮",
+       "src": "推論",
+       "cap": [
+        "MON"
+       ]
+      },
+      {
+       "t": "查看是否出血或乾掉",
+       "src": "推論",
+       "cap": [
+        "MON"
+       ]
+      },
+      {
+       "t": "每日評估敷料狀態",
+       "src": "CPG91 p.44",
+       "cap": [
+        "MON"
+       ]
+      }
+     ],
+     "treat": [
+      {
+       "t": "用濕到乾或 hydrogel 敷料",
+       "note": "濕到乾每天換 1–2 次",
+       "src": "JTS17 2026 p.6–7；JTS62 p.10",
+       "cap": [
+        "NURS"
+       ]
+      },
+      {
+       "t": "重要神經血管構造盡量以軟組織覆蓋",
+       "src": "JTS62 p.7",
+       "cap": [
+        "NURS"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "T5-P8",
+     "layer": "可能發生問題",
+     "name": "需後送關閉傷口或植皮",
+     "monitor": [
+      {
+       "t": "交接切開時間與筋膜室範圍",
+       "src": "JTS17 2026 p.16",
+       "cap": [
+        "MON"
+       ]
+      },
+      {
+       "t": "記錄切口長度、合併處置與計畫",
+       "src": "JTS17 2026 p.16",
+       "cap": [
+        "MON"
+       ]
+      },
+      {
+       "t": "出發前換敷料並標日期時間",
+       "src": "CPG91 p.55",
+       "cap": [
+        "NURS"
+       ]
+      }
+     ],
+     "treat": [
+      {
+       "t": "評估二次探查",
+       "note": "48–72 小時",
+       "src": "Tintinalli Ch.278 p.1879",
+       "cap": [
+        "SURG"
+       ]
+      },
+      {
+       "t": "嚴重延長照護時，評估關閉傷口",
+       "note": "7–10 天內關閉；常需植皮",
+       "src": "Tintinalli Ch.278 p.1879",
+       "cap": [
+        "SURG"
+       ]
+      },
+      {
+       "t": "評估後送",
+       "note": "需關閉傷口或植皮時",
+       "src": "Tintinalli Ch.278 p.1879",
+       "cap": [
+        "EVAC"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "T5-P9",
+     "layer": "可能發生問題",
+     "name": "延誤診斷（腔室症候群已 >12 小時）",
+     "monitor": [
+      {
+       "t": "回推受傷、止血帶及症狀起始時間",
+       "src": "推論",
+       "cap": [
+        "MON"
+       ]
+      },
+      {
+       "t": "評估是否已延誤 >12 小時",
+       "src": "JTS17 2026 p.6",
+       "cap": [
+        "MON"
+       ]
+      },
+      {
+       "t": "遠距會診評估處置方向",
+       "src": "推論",
+       "cap": [
+        "TELE"
+       ]
+      }
+     ],
+     "treat": [
+      {
+       "t": "評估筋膜切開",
+       "note": "時間難判時；切開以保留存活肌肉",
+       "src": "JTS17 2026 p.6",
+       "cap": [
+        "SURG"
+       ]
+      },
+      {
+       "t": "充分復甦後可鹼化尿液、mannitol",
+       "src": "JTS17 2026 p.6",
+       "cap": [
+        "RES"
+       ]
+      },
+      {
+       "t": "評估遠距會診",
+       "note": "指引意見不一；由遠距會診決定",
+       "src": "推論",
+       "cap": [
+        "TELE"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "T5-P10",
+     "layer": "可能發生問題",
+     "name": "肢體已壞死、需截肢",
+     "monitor": [
+      {
+       "t": "觀察肢體冰冷、無感覺與緊繃",
+       "src": "JTS58 p.6",
+       "cap": [
+        "MON"
+       ]
+      },
+      {
+       "t": "檢查遠端脈搏是否消失",
+       "src": "JTS58 p.6",
+       "cap": [
+        "MON"
+       ]
+      },
+      {
+       "t": "評估全身生理狀態與敗血症",
+       "src": "JTS17 2026 p.6",
+       "cap": [
+        "MON"
+       ]
+      }
+     ],
+     "treat": [
+      {
+       "t": "評估筋膜切開",
+       "note": "可考慮",
+       "src": "JTS58 p.6",
+       "cap": [
+        "SURG"
+       ]
+      },
+      {
+       "t": "評估近端並排綁兩條止血帶",
+       "src": "JTS58 p.6",
+       "cap": [
+        "SURG"
+       ],
+       "note": "無改善時；綁後不鬆"
+      },
+      {
+       "t": "評估後送",
+       "note": "需截肢時（截肢原則延至上級醫療）",
+       "src": "JTS17 2026 p.6",
+       "cap": [
+        "EVAC"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "T6",
+   "group": "proc",
+   "title": "鼻胃管／口胃管",
+   "problems": [
+    {
+     "id": "T6-0",
+     "layer": "置放與日常維護",
+     "name": "鼻胃管／口胃管",
+     "monitor": [
+      {
+       "t": "重新確認管路位置",
+       "src": "JTS PFC Airway 2020 p.13",
+       "cap": [
+        "MON"
+       ],
+       "note": "每次灌食或給藥前"
+      },
+      {
+       "t": "檢查腹部",
+       "src": "JTS PFC Airway 2020 p.18",
+       "cap": [
+        "MON"
+       ],
+       "note": "每 2 小時觸診與聽診"
+      },
+      {
+       "t": "記錄引流量並計入輸出",
+       "src": "JTS70 2025 p.8",
+       "cap": [
+        "MON"
+       ]
+      },
+      {
+       "t": "清潔、換位、沖管每 4 小時（Best）",
+       "src": "CPG91 p.45",
+       "cap": [
+        "NURS"
+       ]
+      },
+      {
+       "t": "灌食期間床頭抬高 30–45°",
+       "src": "SHEA VAP 2022 p.691",
+       "cap": [
+        "NURS"
+       ]
+      },
+      {
+       "t": "觀察鼻孔出血",
+       "src": "",
+       "cap": [
+        "MON"
+       ],
+       "note": "留意抽出物帶血",
+       "h": "鼻出血"
+      },
+      {
+       "t": "評估凝血異常",
+       "src": "慣例",
+       "cap": [
+        "EXAM"
+       ],
+       "h": "鼻出血"
+      }
+     ],
+     "treat": [
+      {
+       "t": "評估胃管減壓",
+       "note": "插管後、胃脹氣或空運前；顱底或中臉骨折禁 NG，改 OG",
+       "src": "JTS PFC Airway 2020 p.8, 13, 18；ATLS Ch.1 p.13",
+       "cap": [
+        "SURG"
+       ]
+      },
+      {
+       "t": "清醒放 NG 前局麻與血管收縮劑",
+       "src": "Tintinalli Ch.86 p.552",
+       "cap": [
+        "PAIN"
+       ],
+       "note": "使用潤滑劑及血管收縮劑"
+      },
+      {
+       "t": "先量測置放深度並記錄",
+       "src": "JTS PFC Airway 2020 p.13",
+       "cap": [
+        "SURG"
+       ]
+      },
+      {
+       "t": "抽不到胃液不灌食、不給藥",
+       "src": "JTS70 2025 p.19",
+       "cap": [
+        "NURS"
+       ]
+      },
+      {
+       "t": "確實固定胃管",
+       "src": "Tintinalli Ch.86 p.552",
+       "cap": [
+        "NURS"
+       ]
+      },
+      {
+       "t": "接低壓間歇抽吸",
+       "src": "Tintinalli Ch.86 p.552",
+       "cap": [
+        "NURS"
+       ]
+      },
+      {
+       "t": "注意灌食技術",
+       "note": "由 10–20 mL/h 開始；每 4 小時加 10 mL 至 60 mL/h",
+       "src": "JTS70 2025 p.19–20",
+       "cap": [
+        "NURS"
+       ]
+      },
+      {
+       "t": "輕柔操作",
+       "src": "Tintinalli Ch.86 p.552",
+       "cap": [
+        "SURG"
+       ],
+       "h": "鼻出血"
+      },
+      {
+       "t": "凝血異常者優先放 OG",
+       "src": "慣例",
+       "cap": [
+        "SURG"
+       ],
+       "h": "鼻出血"
+      }
+     ]
+    },
+    {
+     "id": "T6-P1",
+     "layer": "可能發生問題",
+     "name": "位置錯誤（進氣管、盤繞口咽）",
+     "monitor": [
+      {
+       "t": "清醒者觀察咳嗽與說話",
+       "src": "Tintinalli Ch.86 p.552",
+       "cap": [
+        "MON"
+       ],
+       "note": "咳嗽或無法說話時警覺位置錯誤"
+      },
+      {
+       "t": "管尾放入水中觀察是否冒泡",
+       "src": "Tintinalli Ch.86 p.552",
+       "cap": [
+        "MON"
+       ],
+       "note": "冒泡時警覺位置錯誤"
+      },
+      {
+       "t": "鎮靜插管者查管尾 ETCO2",
+       "src": "慣例",
+       "cap": [
+        "EXAM"
+       ]
+      },
+      {
+       "t": "留意是否抽不到胃液",
+       "src": "Tintinalli Ch.86 p.552",
+       "cap": [
+        "MON"
+       ]
+      },
+      {
+       "t": "查看口咽是否有管子盤繞",
+       "src": "Tintinalli Ch.86 p.552",
+       "cap": [
+        "EXAM"
+       ]
+      },
+      {
+       "t": "重新確認管路位置",
+       "src": "Tintinalli Ch.86 p.552",
+       "cap": [
+        "MON"
+       ]
+      }
+     ],
+     "treat": [
+      {
+       "t": "確認前絕不灌任何東西",
+       "src": "JTS PFC Airway 2020 p.13",
+       "cap": [
+        "NURS"
+       ]
+      },
+      {
+       "t": "誤放立即拔出",
+       "src": "慣例",
+       "cap": [
+        "SURG"
+       ]
+      },
+      {
+       "t": "抽不到胃液先檢查口咽",
+       "src": "Tintinalli Ch.86 p.552",
+       "cap": [
+        "EXAM"
+       ]
+      },
+      {
+       "t": "插管者可屈頸或冰管變硬後重放",
+       "src": "Tintinalli Ch.86 p.552",
+       "cap": [
+        "SURG"
+       ]
+      },
+      {
+       "t": "處置併發症",
+       "note": "發生氣胸或穿孔時",
+       "src": "Tintinalli Ch.86 p.552",
+       "cap": [
+        "SURG"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "T6-P2",
+     "layer": "可能發生問題",
+     "name": "誤入顱內（顱底或中臉部骨折）",
+     "monitor": [
+      {
+       "t": "檢查熊貓眼與 Battle sign",
+       "src": "慣例",
+       "cap": [
+        "EXAM"
+       ]
+      },
+      {
+       "t": "留意鼻漏腦脊髓液",
+       "src": "慣例",
+       "cap": [
+        "MON"
+       ]
+      },
+      {
+       "t": "評估顱底骨折徵象",
+       "src": "ATLS Ch.1 p.13",
+       "cap": [
+        "EXAM"
+       ]
+      }
+     ],
+     "treat": [
+      {
+       "t": "顱底或中臉骨折禁放 NG，改放 OG",
+       "src": "ATLS Ch.1 p.13；ATLS Ch.14 p.227",
+       "cap": [
+        "SURG"
+       ]
+      },
+      {
+       "t": "評估後送",
+       "note": "誤放顱內時",
+       "src": "推論",
+       "cap": [
+        "EVAC"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "T6-P4",
+     "layer": "可能發生問題",
+     "name": "滑脫或移位",
+     "monitor": [
+      {
+       "t": "每班與灌食前核對管身刻度",
+       "src": "JTS PFC Airway 2020 p.13",
+       "cap": [
+        "MON"
+       ]
+      },
+      {
+       "t": "翻身時留意胃管位置",
+       "src": "JTS70 2018 p.5",
+       "cap": [
+        "MON"
+       ]
+      },
+      {
+       "t": "重新確認管路位置",
+       "src": "JTS PFC Airway 2020 p.13",
+       "cap": [
+        "MON"
+       ],
+       "note": "灌食前"
+      }
+     ],
+     "treat": [
+      {
+       "t": "確實固定胃管",
+       "src": "CPG91 p.55",
+       "cap": [
+        "NURS"
+       ]
+      },
+      {
+       "t": "移位推回原刻度並重新確認",
+       "src": "慣例",
+       "cap": [
+        "SURG"
+       ]
+      },
+      {
+       "t": "位置不確定就重放",
+       "src": "慣例",
+       "cap": [
+        "SURG"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "T6-P5",
+     "layer": "可能發生問題",
+     "name": "阻塞",
+     "monitor": [
+      {
+       "t": "觀察沖管是否有阻力",
+       "src": "",
+       "cap": [
+        "MON"
+       ]
+      },
+      {
+       "t": "留意引流是否突然停止",
+       "src": "",
+       "cap": [
+        "MON"
+       ]
+      },
+      {
+       "t": "確認管路通暢",
+       "src": "CPG91 p.45",
+       "cap": [
+        "MON"
+       ]
+      }
+     ],
+     "treat": [
+      {
+       "t": "定時及給藥前後用水沖管",
+       "src": "CPG91 p.45；慣例",
+       "cap": [
+        "NURS"
+       ]
+      },
+      {
+       "t": "緩釋錠不磨碎",
+       "src": "慣例",
+       "cap": [
+        "NURS"
+       ]
+      },
+      {
+       "t": "溫水輕沖",
+       "src": "推論",
+       "cap": [
+        "NURS"
+       ]
+      },
+      {
+       "t": "不通就換管",
+       "src": "推論",
+       "cap": [
+        "SURG"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "T6-P6",
+     "layer": "可能發生問題",
+     "name": "吸入或嘔吐",
+     "monitor": [
+      {
+       "t": "觀察腹脹、嘔吐及 SpO2 下降",
+       "src": "JTS PFC Airway 2020 p.18",
+       "cap": [
+        "MON"
+       ]
+      },
+      {
+       "t": "檢查腹部",
+       "src": "JTS PFC Airway 2020 p.18",
+       "cap": [
+        "MON"
+       ],
+       "note": "每 2 小時"
+      },
+      {
+       "t": "灌食時監測呼吸道安全",
+       "src": "JTS PFC Airway 2020 p.13",
+       "cap": [
+        "MON"
+       ]
+      }
+     ],
+     "treat": [
+      {
+       "t": "胃管減壓",
+       "note": "只能降低吸入風險",
+       "src": "ATLS Ch.14 p.230",
+       "cap": [
+        "NURS"
+       ]
+      },
+      {
+       "t": "床頭抬高 30–45°",
+       "src": "SHEA VAP 2022 p.691",
+       "cap": [
+        "NURS"
+       ]
+      },
+      {
+       "t": "緩慢增加灌食",
+       "src": "JTS70 2025 p.19–20",
+       "cap": [
+        "NURS"
+       ]
+      },
+      {
+       "t": "呼吸道安全優先於營養",
+       "src": "JTS PFC Airway 2020 p.13",
+       "cap": [
+        "AIR"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "T6-P8",
+     "layer": "可能發生問題",
+     "name": "鼻翼或嘴角壓傷",
+     "monitor": [
+      {
+       "t": "每 2 小時看鼻孔與口腔皮膚",
+       "src": "CPG91 p.46",
+       "cap": [
+        "MON"
+       ]
+      },
+      {
+       "t": "留意鼻翼或嘴角紅腫破皮",
+       "src": "CPG91 p.46",
+       "cap": [
+        "MON"
+       ]
+      },
+      {
+       "t": "檢查固定點壓力",
+       "src": "CPG91 p.46",
+       "cap": [
+        "MON"
+       ]
+      }
+     ],
+     "treat": [
+      {
+       "t": "依頻率清潔",
+       "src": "CPG91 p.45",
+       "cap": [
+        "NURS"
+       ]
+      },
+      {
+       "t": "更換管子位置",
+       "src": "CPG91 p.45",
+       "cap": [
+        "NURS"
+       ]
+      },
+      {
+       "t": "固定時避免管子頂住鼻翼",
+       "src": "慣例",
+       "cap": [
+        "NURS"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "T6-P11",
+     "layer": "可能發生問題",
+     "name": "灌食不耐（腹脹、腹瀉）",
+     "monitor": [
+      {
+       "t": "檢查腹部",
+       "src": "JTS PFC Airway 2020 p.18",
+       "cap": [
+        "MON"
+       ],
+       "note": "每 2 小時"
+      },
+      {
+       "t": "觀察腹脹與腹瀉",
+       "src": "推論",
+       "cap": [
+        "MON"
+       ]
+      },
+      {
+       "t": "評估灌食耐受度",
+       "src": "推論",
+       "cap": [
+        "MON"
+       ]
+      }
+     ],
+     "treat": [
+      {
+       "t": "降速或改半濃度",
+       "src": "推論",
+       "cap": [
+        "NURS"
+       ]
+      },
+      {
+       "t": "必要時停灌",
+       "src": "推論",
+       "cap": [
+        "NURS"
+       ]
+      },
+      {
+       "t": "呼吸道安全優先於營養",
+       "src": "JTS PFC Airway 2020 p.13",
+       "cap": [
+        "AIR"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "T7",
+   "group": "proc",
+   "title": "周邊靜脈留置針",
+   "problems": [
+    {
+     "id": "T7-0",
+     "layer": "置放與日常維護",
+     "name": "周邊靜脈留置針",
+     "monitor": [
+      {
+       "t": "每次給藥及每小時量生命徵象時看穿刺點",
+       "src": "Tintinalli Ch.31 p.202；推論",
+       "cap": [
+        "MON"
+       ]
+      },
+      {
+       "t": "每班評估非無菌置管是否需更換",
+       "src": "JTS70 2025 p.16",
+       "cap": [
+        "MON"
+       ]
+      },
+      {
+       "t": "評估是否仍需留置",
+       "src": "推論",
+       "cap": [
+        "MON"
+       ],
+       "note": "每天"
+      },
+      {
+       "t": "敷料濕或髒時更換",
+       "src": "Tintinalli Ch.31 p.202",
+       "cap": [
+        "NURS"
+       ]
+      },
+      {
+       "t": "沖管每 4 小時（Best）",
+       "src": "CPG91 p.44",
+       "cap": [
+        "NURS"
+       ]
+      }
+     ],
+     "treat": [
+      {
+       "t": "注意周邊靜脈留置相關技術規範",
+       "note": "休克復甦用短而粗的 16 G 以上；成人優先上肢，避開感染或受傷處",
+       "src": "ATLS Ch.6 p.89；Tintinalli Ch.31 p.201",
+       "cap": [
+        "RES",
+        "SURG"
+       ]
+      },
+      {
+       "t": "不要環繞肢體一圈貼膠帶",
+       "src": "CPG91 p.48",
+       "cap": [
+        "NURS"
+       ]
+      },
+      {
+       "t": "定期更換輸液套管",
+       "note": "持續輸注管組 7 天、間歇管組 24 小時更換；輸血每 4 單位換管組；propofol 每 12 小時",
+       "src": "JTS70 2025 p.16",
+       "cap": [
+        "NURS"
+       ]
+      },
+      {
+       "t": "無感染、阻塞或滲漏不例行換導管",
+       "src": "JTS70 2025 p.16",
+       "cap": [
+        "NURS"
+       ]
+      },
+      {
+       "t": "擦拭接頭",
+       "note": "以酒精或 chlorhexidine 擦至少 5 秒",
+       "src": "SHEA CLABSI 2022 p.7",
+       "cap": [
+        "NURS"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "T7-P1",
+     "layer": "可能發生問題",
+     "name": "滲漏（輸液漏到皮下）",
+     "monitor": [
+      {
+       "t": "觀察穿刺點腫、硬、冰涼",
+       "src": "Tintinalli Ch.31 p.202",
+       "cap": [
+        "MON"
+       ]
+      },
+      {
+       "t": "留意滴速變慢或病人喊痛",
+       "src": "Tintinalli Ch.31 p.202",
+       "cap": [
+        "MON"
+       ]
+      },
+      {
+       "t": "檢查輸液是否外滲",
+       "src": "Tintinalli Ch.31 p.202",
+       "cap": [
+        "EXAM"
+       ]
+      }
+     ],
+     "treat": [
+      {
+       "t": "拔除留置針",
+       "src": "Tintinalli Ch.31 p.202",
+       "cap": [
+        "SURG"
+       ],
+       "note": "先做"
+      },
+      {
+       "t": "抬高肢體",
+       "src": "Tintinalli Ch.31 p.202",
+       "cap": [
+        "NURS"
+       ]
+      },
+      {
+       "t": "冷敷或熱敷",
+       "src": "Tintinalli Ch.31 p.202",
+       "cap": [
+        "NURS"
+       ]
+      },
+      {
+       "t": "追蹤是否組織壞死",
+       "src": "Tintinalli Ch.31 p.202",
+       "cap": [
+        "MON"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "T7-P2",
+     "layer": "可能發生問題",
+     "name": "刺激性藥物外滲（氯化鈣、升壓劑、高濃度電解質）",
+     "monitor": [
+      {
+       "t": "給藥前確認回血",
+       "src": "",
+       "cap": [
+        "EXAM"
+       ]
+      },
+      {
+       "t": "推注時觀察穿刺局部",
+       "src": "",
+       "cap": [
+        "MON"
+       ]
+      },
+      {
+       "t": "留意疼痛、腫脹或皮膚變化",
+       "src": "Tintinalli Ch.31 p.201",
+       "cap": [
+        "MON"
+       ]
+      }
+     ],
+     "treat": [
+      {
+       "t": "周邊管不給硬化劑或濃縮電解質",
+       "src": "Tintinalli Ch.31 p.201",
+       "cap": [
+        "NURS"
+       ]
+      },
+      {
+       "t": "周邊或 IO 給 10% calcium gluconate",
+       "note": "劑量 30 mL（3 g）",
+       "src": "JTS73 p.9",
+       "cap": [
+        "RES"
+       ]
+      },
+      {
+       "t": "短時周邊升壓劑勿放遠端並固定好",
+       "src": "Tintinalli Ch.31 p.201",
+       "cap": [
+        "RES"
+       ]
+      },
+      {
+       "t": "評估改中心導管",
+       "note": "長期升壓劑時",
+       "src": "推論",
+       "cap": [
+        "SURG"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "T7-P4",
+     "layer": "可能發生問題",
+     "name": "靜脈炎、局部感染、菌血症",
+     "monitor": [
+      {
+       "t": "觀察穿刺點紅腫或流膿",
+       "src": "",
+       "cap": [
+        "MON"
+       ]
+      },
+      {
+       "t": "監測體溫",
+       "src": "",
+       "cap": [
+        "MON"
+       ],
+       "note": "留意發燒"
+      },
+      {
+       "t": "評估全身感染徵象",
+       "src": "推論",
+       "cap": [
+        "MON"
+       ]
+      },
+      {
+       "t": "沿靜脈觀察紅、熱、痛",
+       "src": "Tintinalli Ch.31 p.202",
+       "cap": [
+        "MON"
+       ],
+       "note": "發生率 2–13%",
+       "h": "靜脈炎"
+      },
+      {
+       "t": "觸診是否有硬索",
+       "src": "Tintinalli Ch.31 p.202",
+       "cap": [
+        "EXAM"
+       ],
+       "h": "靜脈炎"
+      }
+     ],
+     "treat": [
+      {
+       "t": "無菌置放與操作",
+       "src": "Tintinalli Ch.31 p.202",
+       "cap": [
+        "NURS"
+       ]
+      },
+      {
+       "t": "儘早給予抗生素",
+       "note": "蜂窩性組織炎：涵蓋皮膚菌",
+       "src": "Tintinalli Ch.31 p.202",
+       "cap": [
+        "RES"
+       ]
+      },
+      {
+       "t": "拔除留置針",
+       "src": "Tintinalli Ch.31 p.202",
+       "cap": [
+        "SURG"
+       ],
+       "h": "靜脈炎"
+      },
+      {
+       "t": "熱敷",
+       "src": "Tintinalli Ch.31 p.202；CDC 2011",
+       "cap": [
+        "NURS"
+       ],
+       "h": "靜脈炎"
+      },
+      {
+       "t": "給抗發炎藥",
+       "src": "Tintinalli Ch.31 p.202；CDC 2011",
+       "cap": [
+        "NURS"
+       ],
+       "h": "靜脈炎"
+      },
+      {
+       "t": "評估後送",
+       "note": "無法培養時",
+       "src": "",
+       "cap": [
+        "EVAC"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "T7-P5",
+     "layer": "可能發生問題",
+     "name": "滑脫",
+     "monitor": [
+      {
+       "t": "躁動、翻身及搬運前後檢查",
+       "src": "",
+       "cap": [
+        "MON"
+       ]
+      },
+      {
+       "t": "確認導管仍在血管內",
+       "src": "推論",
+       "cap": [
+        "EXAM"
+       ]
+      },
+      {
+       "t": "搬運前確認至少一條管路可用",
+       "src": "推論",
+       "cap": [
+        "MON"
+       ]
+      }
+     ],
+     "treat": [
+      {
+       "t": "確實固定並保留管路餘長",
+       "src": "慣例",
+       "cap": [
+        "NURS"
+       ]
+      },
+      {
+       "t": "躁動先處理",
+       "src": "慣例",
+       "cap": [
+        "PAIN"
+       ]
+      },
+      {
+       "t": "搬運前確認周邊管路確實固定",
+       "src": "推論",
+       "cap": [
+        "NURS"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "T7-P6",
+     "layer": "可能發生問題",
+     "name": "阻塞",
+     "monitor": [
+      {
+       "t": "沖管時留意阻力",
+       "src": "慣例",
+       "cap": [
+        "MON"
+       ]
+      },
+      {
+       "t": "觀察輸液是否滴下",
+       "src": "",
+       "cap": [
+        "MON"
+       ]
+      },
+      {
+       "t": "確認管路通暢",
+       "src": "CPG91 p.44",
+       "cap": [
+        "MON"
+       ]
+      }
+     ],
+     "treat": [
+      {
+       "t": "依頻率沖管預防阻塞",
+       "src": "CPG91 p.44",
+       "cap": [
+        "NURS"
+       ]
+      },
+      {
+       "t": "有阻力不要硬推",
+       "src": "慣例",
+       "cap": [
+        "SURG"
+       ]
+      },
+      {
+       "t": "換新管",
+       "src": "慣例",
+       "cap": [
+        "SURG"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "T7-P7",
+     "layer": "可能發生問題",
+     "name": "輸液過量",
+     "monitor": [
+      {
+       "t": "每小時記錄輸入與輸出",
+       "src": "慣例",
+       "cap": [
+        "MON"
+       ]
+      },
+      {
+       "t": "監測呼吸喘與 SpO2 下降",
+       "src": "慣例",
+       "cap": [
+        "MON"
+       ]
+      },
+      {
+       "t": "POCUS 看肺部 B-lines 與 IVC",
+       "src": "慣例",
+       "cap": [
+        "EXAM"
+       ]
+      }
+     ],
+     "treat": [
+      {
+       "t": "用幫浦或 dial-a-flow 控速",
+       "src": "CPG91 p.44",
+       "cap": [
+        "RES"
+       ]
+      },
+      {
+       "t": "燒傷依尿量每小時調整 20–25%",
+       "src": "CPG91 p.48",
+       "cap": [
+        "RES"
+       ]
+      },
+      {
+       "t": "復甦達標就停",
+       "src": "CPG91 p.11",
+       "cap": [
+        "RES"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "T7-P9",
+     "layer": "可能發生問題",
+     "name": "肢體缺血（環狀膠帶＋水腫）",
+     "monitor": [
+      {
+       "t": "監測遠端脈搏",
+       "src": "",
+       "cap": [
+        "MON"
+       ]
+      },
+      {
+       "t": "檢查膚色及微血管回填",
+       "src": "",
+       "cap": [
+        "MON"
+       ]
+      },
+      {
+       "t": "留意肢體腫脹",
+       "src": "CPG91 p.48",
+       "cap": [
+        "MON"
+       ]
+      }
+     ],
+     "treat": [
+      {
+       "t": "不要環繞肢體一圈貼膠帶",
+       "src": "CPG91 p.48",
+       "cap": [
+        "NURS"
+       ]
+      },
+      {
+       "t": "移除造成束縛的環狀膠帶",
+       "src": "CPG91 p.48",
+       "cap": [
+        "NURS"
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
