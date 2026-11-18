@@ -960,45 +960,6 @@
        ]
       }
      ]
-    },
-    {
-     "id": "T9-P11",
-     "layer": "可能發生問題",
-     "name": "高張食鹽水使 Na 升太快或過高",
-     "monitor": [
-      {
-       "t": "追蹤床邊 Na",
-       "src": "慣例；ATLS Ch.7 p.122",
-       "cap": [
-        "MON"
-       ],
-       "note": "每 4–6 小時；留意 Na 是否超過 160 mEq/L"
-      },
-      {
-       "t": "追蹤血清滲透壓",
-       "src": "ATLS Ch.7 p.122",
-       "cap": [
-        "MON"
-       ]
-      }
-     ],
-     "treat": [
-      {
-       "t": "高滲治療目標 Na 145–160 mEq/L",
-       "note": "Na >160 mEq/L 或滲透壓 >320 mOsm/kg 停加",
-       "src": "ATLS Ch.7 p.122",
-       "cap": [
-        "RES"
-       ]
-      },
-      {
-       "t": "高濃度食鹽水走中心導管",
-       "src": "CPG91 p.71",
-       "cap": [
-        "SURG"
-       ]
-      }
-     ]
     }
    ]
   },
@@ -1732,7 +1693,8 @@
        "src": "JTS62 p.6",
        "cap": [
         "EXAM"
-       ]
+       ],
+       "note": "4C：Color、Consistency、Contractility、Circulation"
       },
       {
        "t": "戰傷不做初期縫合",
